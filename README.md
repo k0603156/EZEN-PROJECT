@@ -24,7 +24,7 @@
 
   - **todo: 톰캣설치부터 세팅**
 
-- new -> spring regecy project
+- new -> spring legacy project
 
   - spring mvc project 프로젝트 생성
 
