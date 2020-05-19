@@ -24,7 +24,7 @@ hs_err_pid*
 
 # 
 .settings/
-target/
+SpringBoard_07_AOP/target/
 .classpath
 .springBeans
 .project
