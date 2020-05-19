@@ -28,13 +28,11 @@ function ProductItem({ item: { name } }) {
 
 export default function ProductCarousel({ items }) {
   return (
-    <View>
-      <Carousel
-        data={items}
-        renderItem={ProductItem}
-        sliderWidth={Layout.window.width}
-        itemWidth={Layout.window.width}
-      />
-    </View>
+    <Carousel
+      data={items}
+      renderItem={ProductItem}
+      sliderWidth={Layout.window.width}
+      itemWidth={Layout.window.width}
+    />
   );
 }
