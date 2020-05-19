@@ -1,7 +1,7 @@
-.settings/
-target/
-.classpath
-.springBeans
+#.settings/
+#target/
+#.classpath
+#.springBeans
 #/sample_project/.project
-.project
+#.project
 
