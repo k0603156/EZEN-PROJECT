@@ -1,9 +1,11 @@
 import * as React from "react";
-import { NavigationContainer } from "@react-navigation/native";
-import { Platform, StatusBar, StyleSheet, View } from "react-native";
-
+import styled from "styled-components";
+import { Platform, StatusBar, View } from "react-native";
+import { Provider, observer } from "mobx-react";
 import useCachedResources from "./hooks/useCachedResources";
-import Navigator from "./navigation/Navigator";
+import Navigation from "./navigation/Navigation";
+import Colors from "./constants/Colors";
+import stores from "./store";
 
 export default function App(props) {
   const isLoadingComplete = useCachedResources();
@@ -12,19 +14,13 @@ export default function App(props) {
     return null;
   } else {
     return (
-      <View style={styles.container}>
-        {Platform.OS === "ios" && <StatusBar barStyle="dark-content" />}
-        <NavigationContainer>
-          <Navigator />
-        </NavigationContainer>
-      </View>
+      <Provider rootStore={stores}>
+        <View style={{ flex: 1 }}>
+          {Platform.OS === "ios" && <StatusBar barStyle="dark-content" />}
+          {Platform.OS === "android" && <StatusBar barStyle="light-content" />}
+          <Navigation />
+        </View>
+      </Provider>
     );
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-  },
-});
