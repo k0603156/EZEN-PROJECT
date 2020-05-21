@@ -3,16 +3,19 @@ import styled from "styled-components";
 import Colors from "../constants/Colors";
 import Layout from "../constants/Layout";
 import Greeting from "../components/Greeting";
-import useStores from "../hooks/useStores";
 import { View } from "react-native";
 import { LinearGradient } from "expo-linear-gradient";
 import ProductCarousel from "../components/ProductCarousel";
+import BottomSheet from "../components/BottomSheet";
+import MenuDetailForm from "../components/MenuDetailForm";
+import Button from "../components/Button";
 
 const Container = styled.View`
   display: flex;
   flex: 1;
   flex-direction: column;
 `;
+
 const gradientStyle = {
   position: "absolute",
   left: 0,
@@ -20,8 +23,12 @@ const gradientStyle = {
   top: 0,
   height: Layout.window.height - 150,
 };
+
 function Menu({ navigation, route }) {
-  const store = useStores();
+  const modalizeRef = React.useRef(null);
+  const onOpen = () => {
+    modalizeRef.current?.open();
+  };
   const [items, setItems] = React.useState([
     { name: "나이트로바닐라크림" },
     { name: "나이트로바닐라크림" },
@@ -31,13 +38,20 @@ function Menu({ navigation, route }) {
   return (
     <Container>
       <Greeting message="안녕하세요. 스타벅스입니다." />
-      <View>
+      <Container>
         <LinearGradient
           colors={[Colors.darkGray, "transparent"]}
           style={gradientStyle}
         />
-        <ProductCarousel items={items} />
-      </View>
+        <View>
+          <ProductCarousel items={items} />
+        </View>
+        <Button text="Order" onPress={onOpen} />
+        <BottomSheet
+          useRef={modalizeRef}
+          sheet={<MenuDetailForm title="나이트로 바닐라 크림" />}
+        />
+      </Container>
     </Container>
   );
 }

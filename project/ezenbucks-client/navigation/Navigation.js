@@ -1,4 +1,5 @@
 import "react-native-gesture-handler";
+import "react-native-reanimated";
 import * as React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator, HeaderTitle } from "@react-navigation/stack";
@@ -8,7 +9,6 @@ import Home from "../screens/Home";
 import Menu from "../screens/Menu";
 import Order from "../screens/Order";
 import Shop from "../screens/Shop";
-import ProductList from "../store/ProductList";
 
 const MainNavigation = createStackNavigator();
 
