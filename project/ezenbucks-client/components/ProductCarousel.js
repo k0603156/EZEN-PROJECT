@@ -26,11 +26,13 @@ function ProductItem({ item: { name } }) {
   );
 }
 
-export default function ProductCarousel({ items }) {
+export default function ProductCarousel({ items, onScroll, onSnapToItem }) {
   return (
     <Carousel
       data={items}
       renderItem={ProductItem}
+      onScroll={onScroll}
+      onSnapToItem={onSnapToItem}
       sliderWidth={Layout.window.width}
       itemWidth={Layout.window.width}
     />

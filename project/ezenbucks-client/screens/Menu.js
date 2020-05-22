@@ -26,14 +26,29 @@ const gradientStyle = {
 
 function Menu({ navigation, route }) {
   const modalizeRef = React.useRef(null);
-  const onOpen = () => {
+  const [state, setState] = React.useState({
+    selectedItem: 0,
+    items: [
+      { name: "나이트로 바닐라 크림" },
+      { name: "초콜릿 블랙 콜드 브루" },
+      { name: "코코넛 화이트 콜드 브루" },
+    ],
+  });
+
+  const onSnapItem = (selectedItem) => {
+    setState({ ...state, selectedItem });
+  };
+  const onSheetOpen = () => {
     modalizeRef.current?.open();
   };
-  const [items, setItems] = React.useState([
-    { name: "나이트로바닐라크림" },
-    { name: "나이트로바닐라크림" },
-    { name: "나이트로바닐라크림" },
-  ]);
+
+  const onSheetClose = () => {
+    modalizeRef.current?.close();
+  };
+
+  const onBtnOrder = () => {
+    navigation.navigate("Shop");
+  };
 
   return (
     <Container>
@@ -44,12 +59,19 @@ function Menu({ navigation, route }) {
           style={gradientStyle}
         />
         <View>
-          <ProductCarousel items={items} />
+          <ProductCarousel items={state.items} onSnapToItem={onSnapItem} />
         </View>
-        <Button text="Order" onPress={onOpen} />
+        <Button text="Order" onPress={onSheetOpen} />
         <BottomSheet
           useRef={modalizeRef}
-          sheet={<MenuDetailForm title="나이트로 바닐라 크림" />}
+          adjustToContentHeight
+          sheet={
+            <MenuDetailForm
+              title={state.items[state.selectedItem].name}
+              onBtnOrder={onBtnOrder}
+              onBtnCancel={onSheetClose}
+            />
+          }
         />
       </Container>
     </Container>

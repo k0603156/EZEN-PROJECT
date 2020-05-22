@@ -1,5 +1,6 @@
 import * as React from "react";
 import styled from "styled-components";
+import { useNavigation } from "@react-navigation/native";
 import { Text, Picker } from "react-native";
 import Colors from "../constants/Colors";
 import Layout from "../constants/Layout";
@@ -26,7 +27,8 @@ const SheetBtnView = styled.View`
   justify-content: space-between;
 `;
 
-export default function MenuDetailForm({ title }) {
+export default function MenuDetailForm({ title, onBtnOrder, onBtnCancel }) {
+  const navigation = useNavigation();
   const [state, setState] = React.useState({
     size: "Tall",
     temp: "Hot",
@@ -53,8 +55,8 @@ export default function MenuDetailForm({ title }) {
         <Button text="Cold" />
       </SheetOptionView>
       <SheetBtnView>
-        <Button text="주문" />
-        <Button text="취소" />
+        <Button text="주문" onPress={onBtnOrder} />
+        <Button text="취소" onPress={onBtnCancel} />
       </SheetBtnView>
     </Sheet>
   );
