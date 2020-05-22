@@ -32,7 +32,7 @@ public class ProductCtrl {
 	private ProductService psv;
 	@Inject
 	private FileProcess fp;
-	// 코드 수정
+	
 	@PostMapping("/rmimg")	
 	public String removeImg(@RequestParam("pno") int pno,
 			@RequestParam("imgfile")String imgfile) {
