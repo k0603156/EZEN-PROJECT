@@ -10,6 +10,6 @@ const Container = styled.View`
   flex: 1;
   flex-direction: column;
 `;
-export default function Order() {
+export default function Order({ navigation, route }) {
   return <Container></Container>;
 }
