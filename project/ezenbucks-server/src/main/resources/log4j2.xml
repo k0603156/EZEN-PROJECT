@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Configuration status="WARN" monitorInterval="30">
 	<Properties>
-		<Property name="baseDir">C:/_spring/workspace/logs/SpringBoard/</Property>
+		<Property name="baseDir">C:/Project/EZEN-PROJECT/project/ezenbucks-server/logs/</Property>
 	</Properties>
 	<Appenders>
 		<Console name="Console" target="SYSTEM_OUT">

@@ -1,7 +1,8 @@
-/.metadata/
-.classpath
-.project
-.tern-project
-/.settings/
-/target/
-/Servers/
+*/.metadata/*
+*/.classpath
+*/.project
+*/.tern-project
+*/.settings/*
+*/target/*
+*/Servers/*
+*/.recommenders/

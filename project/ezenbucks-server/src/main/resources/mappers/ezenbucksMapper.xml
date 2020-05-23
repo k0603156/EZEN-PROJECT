@@ -6,5 +6,9 @@
 	<select id="coffeelist" resultType="cvo">
 		select coffee_id, coffee_title, coffee_price, coffee_temp, coffee_size from coffee
 	</select>
-
+	
+	<select id="foodlist" resultType="fvo">
+		select food_id, food_title, food_price from food
+	</select>
+	
 </mapper>

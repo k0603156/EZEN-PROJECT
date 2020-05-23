@@ -1,5 +1,7 @@
 package com.myweb.persistence;
 
+import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 import javax.inject.Inject;
@@ -14,14 +16,16 @@ import com.myweb.domain.CoffeeVO;
 @Repository
 public class CoffeeDAOImp implements CoffeeDAO {
 	private static final Logger log = LoggerFactory.getLogger(CoffeeDAOImp.class);
-	private static String namespace = "EzenbucksMapper.";
+	private static String namespace = "EzenbucksMapper";
 
 	@Inject
 	private SqlSession sql;
 
 	@Override
-	public List<CoffeeVO> selectList() {
-		return sql.selectList(namespace + "coffeelist");
+	public List<CoffeeVO> selectList() throws SQLException {	
+		return sql.selectList(namespace + ".coffeelist");
+		
+	
 	}
 
 }

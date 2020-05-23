@@ -4,5 +4,6 @@
 	<typeAliases>
 		<!-- <package name="com.myweb.domain" /> -->
 		<typeAlias type="com.myweb.domain.CoffeeVO" alias="cvo"/>
+		<typeAlias type="com.myweb.domain.FoodVO" alias="fvo"/>
 	</typeAliases>
 </configuration>

@@ -1,0 +1,1058 @@
+2020-05-23 20:43:47,439 DEBUG l.debug [localhost-startStop-1] log4jdbc-logj2 properties initialization...
+2020-05-23 20:43:47,440 DEBUG l.debug [localhost-startStop-1] Using logger: net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
+2020-05-23 20:43:47,440 DEBUG l.debug [localhost-startStop-1] x log4jdbc.debug.stack.prefix is not defined
+2020-05-23 20:43:47,440 DEBUG l.debug [localhost-startStop-1] x log4jdbc.sqltiming.warn.threshold is not defined
+2020-05-23 20:43:47,440 DEBUG l.debug [localhost-startStop-1] x log4jdbc.sqltiming.error.threshold is not defined
+2020-05-23 20:43:47,441 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+2020-05-23 20:43:47,441 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+2020-05-23 20:43:47,447 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+2020-05-23 20:43:47,447 DEBUG l.debug [localhost-startStop-1] x log4jdbc.statement.warn is not defined (using default value false)
+2020-05-23 20:43:47,447 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.select is not defined (using default value true)
+2020-05-23 20:43:47,447 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.insert is not defined (using default value true)
+2020-05-23 20:43:47,447 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.update is not defined (using default value true)
+2020-05-23 20:43:47,447 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.delete is not defined (using default value true)
+2020-05-23 20:43:47,448 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.create is not defined (using default value true)
+2020-05-23 20:43:47,448 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+2020-05-23 20:43:47,448 DEBUG l.debug [localhost-startStop-1] x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+2020-05-23 20:43:47,448 DEBUG l.debug [localhost-startStop-1] x log4jdbc.drivers is not defined
+2020-05-23 20:43:47,448 DEBUG l.debug [localhost-startStop-1] x log4jdbc.trim.sql is not defined (using default value true)
+2020-05-23 20:43:47,448 DEBUG l.debug [localhost-startStop-1] x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+2020-05-23 20:43:47,448 DEBUG l.debug [localhost-startStop-1] x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+2020-05-23 20:43:47,448 DEBUG l.debug [localhost-startStop-1] log4jdbc-logj2 properties initialization done.
+2020-05-23 20:43:47,448 DEBUG l.debug [localhost-startStop-1] DriverSpy intialization...
+2020-05-23 20:43:47,464 DEBUG l.debug [localhost-startStop-1] WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+2020-05-23 20:43:47,467 DEBUG l.debug [localhost-startStop-1] DriverSpy intialization done.
+2020-05-23 20:43:47,498 DEBUG o.a.i.l.LogFactory [localhost-startStop-1] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-23 20:43:47,683 DEBUG o.m.s.SqlSessionFactoryBean [localhost-startStop-1] Parsed configuration file: 'class path resource [MybatisConfig.xml]'
+2020-05-23 20:43:47,800 DEBUG o.m.s.SqlSessionFactoryBean [localhost-startStop-1] Parsed mapper file: 'file [C:\Project\EZEN-PROJECT\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ctrl\WEB-INF\classes\mappers\ezenbucksMapper.xml]'
+2020-05-23 20:44:59,111 DEBUG l.debug [localhost-startStop-1] log4jdbc-logj2 properties initialization...
+2020-05-23 20:44:59,113 DEBUG l.debug [localhost-startStop-1] Using logger: net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
+2020-05-23 20:44:59,113 DEBUG l.debug [localhost-startStop-1] x log4jdbc.debug.stack.prefix is not defined
+2020-05-23 20:44:59,113 DEBUG l.debug [localhost-startStop-1] x log4jdbc.sqltiming.warn.threshold is not defined
+2020-05-23 20:44:59,113 DEBUG l.debug [localhost-startStop-1] x log4jdbc.sqltiming.error.threshold is not defined
+2020-05-23 20:44:59,113 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+2020-05-23 20:44:59,113 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+2020-05-23 20:44:59,113 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+2020-05-23 20:44:59,113 DEBUG l.debug [localhost-startStop-1] x log4jdbc.statement.warn is not defined (using default value false)
+2020-05-23 20:44:59,114 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.select is not defined (using default value true)
+2020-05-23 20:44:59,114 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.insert is not defined (using default value true)
+2020-05-23 20:44:59,114 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.update is not defined (using default value true)
+2020-05-23 20:44:59,114 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.delete is not defined (using default value true)
+2020-05-23 20:44:59,114 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.create is not defined (using default value true)
+2020-05-23 20:44:59,114 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+2020-05-23 20:44:59,114 DEBUG l.debug [localhost-startStop-1] x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+2020-05-23 20:44:59,114 DEBUG l.debug [localhost-startStop-1] x log4jdbc.drivers is not defined
+2020-05-23 20:44:59,114 DEBUG l.debug [localhost-startStop-1] x log4jdbc.trim.sql is not defined (using default value true)
+2020-05-23 20:44:59,114 DEBUG l.debug [localhost-startStop-1] x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+2020-05-23 20:44:59,114 DEBUG l.debug [localhost-startStop-1] x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+2020-05-23 20:44:59,114 DEBUG l.debug [localhost-startStop-1] log4jdbc-logj2 properties initialization done.
+2020-05-23 20:44:59,115 DEBUG l.debug [localhost-startStop-1] DriverSpy intialization...
+2020-05-23 20:44:59,130 DEBUG l.debug [localhost-startStop-1] WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+2020-05-23 20:44:59,133 DEBUG l.debug [localhost-startStop-1] DriverSpy intialization done.
+2020-05-23 20:44:59,164 DEBUG o.a.i.l.LogFactory [localhost-startStop-1] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-23 20:44:59,360 DEBUG o.m.s.SqlSessionFactoryBean [localhost-startStop-1] Parsed configuration file: 'class path resource [MybatisConfig.xml]'
+2020-05-23 20:44:59,484 DEBUG o.m.s.SqlSessionFactoryBean [localhost-startStop-1] Parsed mapper file: 'file [C:\Project\EZEN-PROJECT\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ctrl\WEB-INF\classes\mappers\ezenbucksMapper.xml]'
+2020-05-23 20:45:01,686 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-2] Creating a new SqlSession
+2020-05-23 20:45:01,702 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-2] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e1be3a3] was not registered for synchronization because synchronization is not active
+2020-05-23 20:45:01,745 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-2] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@e1be3a3]
+2020-05-23 20:45:45,452 DEBUG l.debug [localhost-startStop-1] log4jdbc-logj2 properties initialization...
+2020-05-23 20:45:45,454 DEBUG l.debug [localhost-startStop-1] Using logger: net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
+2020-05-23 20:45:45,454 DEBUG l.debug [localhost-startStop-1] x log4jdbc.debug.stack.prefix is not defined
+2020-05-23 20:45:45,454 DEBUG l.debug [localhost-startStop-1] x log4jdbc.sqltiming.warn.threshold is not defined
+2020-05-23 20:45:45,454 DEBUG l.debug [localhost-startStop-1] x log4jdbc.sqltiming.error.threshold is not defined
+2020-05-23 20:45:45,454 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+2020-05-23 20:45:45,454 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+2020-05-23 20:45:45,455 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+2020-05-23 20:45:45,455 DEBUG l.debug [localhost-startStop-1] x log4jdbc.statement.warn is not defined (using default value false)
+2020-05-23 20:45:45,455 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.select is not defined (using default value true)
+2020-05-23 20:45:45,455 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.insert is not defined (using default value true)
+2020-05-23 20:45:45,455 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.update is not defined (using default value true)
+2020-05-23 20:45:45,455 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.delete is not defined (using default value true)
+2020-05-23 20:45:45,455 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.create is not defined (using default value true)
+2020-05-23 20:45:45,455 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+2020-05-23 20:45:45,455 DEBUG l.debug [localhost-startStop-1] x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+2020-05-23 20:45:45,455 DEBUG l.debug [localhost-startStop-1] x log4jdbc.drivers is not defined
+2020-05-23 20:45:45,455 DEBUG l.debug [localhost-startStop-1] x log4jdbc.trim.sql is not defined (using default value true)
+2020-05-23 20:45:45,455 DEBUG l.debug [localhost-startStop-1] x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+2020-05-23 20:45:45,456 DEBUG l.debug [localhost-startStop-1] x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+2020-05-23 20:45:45,456 DEBUG l.debug [localhost-startStop-1] log4jdbc-logj2 properties initialization done.
+2020-05-23 20:45:45,456 DEBUG l.debug [localhost-startStop-1] DriverSpy intialization...
+2020-05-23 20:45:45,471 DEBUG l.debug [localhost-startStop-1] WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+2020-05-23 20:45:45,474 DEBUG l.debug [localhost-startStop-1] DriverSpy intialization done.
+2020-05-23 20:45:45,504 DEBUG o.a.i.l.LogFactory [localhost-startStop-1] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-23 20:45:45,707 DEBUG o.m.s.SqlSessionFactoryBean [localhost-startStop-1] Parsed configuration file: 'class path resource [MybatisConfig.xml]'
+2020-05-23 20:45:45,837 DEBUG o.m.s.SqlSessionFactoryBean [localhost-startStop-1] Parsed mapper file: 'file [C:\Project\EZEN-PROJECT\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ctrl\WEB-INF\classes\mappers\ezenbucksMapper.xml]'
+2020-05-23 20:45:48,063 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-2] Creating a new SqlSession
+2020-05-23 20:45:48,077 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-2] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@692737b2] was not registered for synchronization because synchronization is not active
+2020-05-23 20:45:48,120 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-2] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@692737b2]
+2020-05-23 20:46:50,102 DEBUG l.debug [localhost-startStop-1] log4jdbc-logj2 properties initialization...
+2020-05-23 20:46:50,104 DEBUG l.debug [localhost-startStop-1] Using logger: net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
+2020-05-23 20:46:50,104 DEBUG l.debug [localhost-startStop-1] x log4jdbc.debug.stack.prefix is not defined
+2020-05-23 20:46:50,104 DEBUG l.debug [localhost-startStop-1] x log4jdbc.sqltiming.warn.threshold is not defined
+2020-05-23 20:46:50,104 DEBUG l.debug [localhost-startStop-1] x log4jdbc.sqltiming.error.threshold is not defined
+2020-05-23 20:46:50,104 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+2020-05-23 20:46:50,104 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+2020-05-23 20:46:50,104 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+2020-05-23 20:46:50,104 DEBUG l.debug [localhost-startStop-1] x log4jdbc.statement.warn is not defined (using default value false)
+2020-05-23 20:46:50,104 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.select is not defined (using default value true)
+2020-05-23 20:46:50,104 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.insert is not defined (using default value true)
+2020-05-23 20:46:50,105 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.update is not defined (using default value true)
+2020-05-23 20:46:50,105 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.delete is not defined (using default value true)
+2020-05-23 20:46:50,105 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.create is not defined (using default value true)
+2020-05-23 20:46:50,105 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+2020-05-23 20:46:50,105 DEBUG l.debug [localhost-startStop-1] x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+2020-05-23 20:46:50,105 DEBUG l.debug [localhost-startStop-1] x log4jdbc.drivers is not defined
+2020-05-23 20:46:50,105 DEBUG l.debug [localhost-startStop-1] x log4jdbc.trim.sql is not defined (using default value true)
+2020-05-23 20:46:50,105 DEBUG l.debug [localhost-startStop-1] x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+2020-05-23 20:46:50,105 DEBUG l.debug [localhost-startStop-1] x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+2020-05-23 20:46:50,105 DEBUG l.debug [localhost-startStop-1] log4jdbc-logj2 properties initialization done.
+2020-05-23 20:46:50,105 DEBUG l.debug [localhost-startStop-1] DriverSpy intialization...
+2020-05-23 20:46:50,121 DEBUG l.debug [localhost-startStop-1] WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+2020-05-23 20:46:50,124 DEBUG l.debug [localhost-startStop-1] DriverSpy intialization done.
+2020-05-23 20:46:50,153 DEBUG o.a.i.l.LogFactory [localhost-startStop-1] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-23 20:46:50,344 DEBUG o.m.s.SqlSessionFactoryBean [localhost-startStop-1] Parsed configuration file: 'class path resource [MybatisConfig.xml]'
+2020-05-23 20:46:50,466 DEBUG o.m.s.SqlSessionFactoryBean [localhost-startStop-1] Parsed mapper file: 'file [C:\Project\EZEN-PROJECT\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ctrl\WEB-INF\classes\mappers\ezenbucksMapper.xml]'
+2020-05-23 20:46:53,172 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-2] Creating a new SqlSession
+2020-05-23 20:46:53,185 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-2] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c3e892d] was not registered for synchronization because synchronization is not active
+2020-05-23 20:46:53,227 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-2] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c3e892d]
+2020-05-23 20:48:25,667 DEBUG l.debug [localhost-startStop-1] log4jdbc-logj2 properties initialization...
+2020-05-23 20:48:25,668 DEBUG l.debug [localhost-startStop-1] Using logger: net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
+2020-05-23 20:48:25,668 DEBUG l.debug [localhost-startStop-1] x log4jdbc.debug.stack.prefix is not defined
+2020-05-23 20:48:25,668 DEBUG l.debug [localhost-startStop-1] x log4jdbc.sqltiming.warn.threshold is not defined
+2020-05-23 20:48:25,668 DEBUG l.debug [localhost-startStop-1] x log4jdbc.sqltiming.error.threshold is not defined
+2020-05-23 20:48:25,668 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+2020-05-23 20:48:25,669 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+2020-05-23 20:48:25,669 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+2020-05-23 20:48:25,669 DEBUG l.debug [localhost-startStop-1] x log4jdbc.statement.warn is not defined (using default value false)
+2020-05-23 20:48:25,669 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.select is not defined (using default value true)
+2020-05-23 20:48:25,669 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.insert is not defined (using default value true)
+2020-05-23 20:48:25,669 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.update is not defined (using default value true)
+2020-05-23 20:48:25,669 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.delete is not defined (using default value true)
+2020-05-23 20:48:25,669 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.create is not defined (using default value true)
+2020-05-23 20:48:25,669 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+2020-05-23 20:48:25,670 DEBUG l.debug [localhost-startStop-1] x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+2020-05-23 20:48:25,670 DEBUG l.debug [localhost-startStop-1] x log4jdbc.drivers is not defined
+2020-05-23 20:48:25,670 DEBUG l.debug [localhost-startStop-1] x log4jdbc.trim.sql is not defined (using default value true)
+2020-05-23 20:48:25,670 DEBUG l.debug [localhost-startStop-1] x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+2020-05-23 20:48:25,670 DEBUG l.debug [localhost-startStop-1] x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+2020-05-23 20:48:25,670 DEBUG l.debug [localhost-startStop-1] log4jdbc-logj2 properties initialization done.
+2020-05-23 20:48:25,670 DEBUG l.debug [localhost-startStop-1] DriverSpy intialization...
+2020-05-23 20:48:25,685 DEBUG l.debug [localhost-startStop-1] WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+2020-05-23 20:48:25,689 DEBUG l.debug [localhost-startStop-1] DriverSpy intialization done.
+2020-05-23 20:48:25,721 DEBUG o.a.i.l.LogFactory [localhost-startStop-1] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-23 20:48:25,907 DEBUG o.m.s.SqlSessionFactoryBean [localhost-startStop-1] Parsed configuration file: 'class path resource [MybatisConfig.xml]'
+2020-05-23 20:48:26,028 DEBUG o.m.s.SqlSessionFactoryBean [localhost-startStop-1] Parsed mapper file: 'file [C:\Project\EZEN-PROJECT\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ctrl\WEB-INF\classes\mappers\ezenbucksMapper.xml]'
+2020-05-23 20:48:28,962 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-2] Creating a new SqlSession
+2020-05-23 20:48:28,975 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-2] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f27a7d4] was not registered for synchronization because synchronization is not active
+2020-05-23 20:48:29,018 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-2] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f27a7d4]
+2020-05-23 20:57:31,383 DEBUG l.debug [localhost-startStop-1] log4jdbc-logj2 properties initialization...
+2020-05-23 20:57:31,385 DEBUG l.debug [localhost-startStop-1] Using logger: net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
+2020-05-23 20:57:31,385 DEBUG l.debug [localhost-startStop-1] x log4jdbc.debug.stack.prefix is not defined
+2020-05-23 20:57:31,385 DEBUG l.debug [localhost-startStop-1] x log4jdbc.sqltiming.warn.threshold is not defined
+2020-05-23 20:57:31,385 DEBUG l.debug [localhost-startStop-1] x log4jdbc.sqltiming.error.threshold is not defined
+2020-05-23 20:57:31,385 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+2020-05-23 20:57:31,385 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+2020-05-23 20:57:31,385 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+2020-05-23 20:57:31,385 DEBUG l.debug [localhost-startStop-1] x log4jdbc.statement.warn is not defined (using default value false)
+2020-05-23 20:57:31,385 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.select is not defined (using default value true)
+2020-05-23 20:57:31,385 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.insert is not defined (using default value true)
+2020-05-23 20:57:31,386 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.update is not defined (using default value true)
+2020-05-23 20:57:31,386 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.delete is not defined (using default value true)
+2020-05-23 20:57:31,386 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.create is not defined (using default value true)
+2020-05-23 20:57:31,386 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+2020-05-23 20:57:31,386 DEBUG l.debug [localhost-startStop-1] x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+2020-05-23 20:57:31,386 DEBUG l.debug [localhost-startStop-1] x log4jdbc.drivers is not defined
+2020-05-23 20:57:31,386 DEBUG l.debug [localhost-startStop-1] x log4jdbc.trim.sql is not defined (using default value true)
+2020-05-23 20:57:31,386 DEBUG l.debug [localhost-startStop-1] x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+2020-05-23 20:57:31,387 DEBUG l.debug [localhost-startStop-1] x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+2020-05-23 20:57:31,387 DEBUG l.debug [localhost-startStop-1] log4jdbc-logj2 properties initialization done.
+2020-05-23 20:57:31,387 DEBUG l.debug [localhost-startStop-1] DriverSpy intialization...
+2020-05-23 20:57:31,402 DEBUG l.debug [localhost-startStop-1] WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+2020-05-23 20:57:31,405 DEBUG l.debug [localhost-startStop-1] DriverSpy intialization done.
+2020-05-23 20:57:31,436 DEBUG o.a.i.l.LogFactory [localhost-startStop-1] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-23 20:57:31,636 DEBUG o.m.s.SqlSessionFactoryBean [localhost-startStop-1] Parsed configuration file: 'class path resource [MybatisConfig.xml]'
+2020-05-23 20:57:31,761 DEBUG o.m.s.SqlSessionFactoryBean [localhost-startStop-1] Parsed mapper file: 'file [C:\Project\EZEN-PROJECT\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ctrl\WEB-INF\classes\mappers\ezenbucksMapper.xml]'
+2020-05-23 20:57:34,010 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-1] Creating a new SqlSession
+2020-05-23 20:57:34,024 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-1] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5699fa2c] was not registered for synchronization because synchronization is not active
+2020-05-23 20:57:34,078 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-1] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5699fa2c]
+2020-05-23 20:58:01,745 DEBUG l.debug [localhost-startStop-1] log4jdbc-logj2 properties initialization...
+2020-05-23 20:58:01,747 DEBUG l.debug [localhost-startStop-1] Using logger: net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
+2020-05-23 20:58:01,747 DEBUG l.debug [localhost-startStop-1] x log4jdbc.debug.stack.prefix is not defined
+2020-05-23 20:58:01,747 DEBUG l.debug [localhost-startStop-1] x log4jdbc.sqltiming.warn.threshold is not defined
+2020-05-23 20:58:01,747 DEBUG l.debug [localhost-startStop-1] x log4jdbc.sqltiming.error.threshold is not defined
+2020-05-23 20:58:01,747 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+2020-05-23 20:58:01,747 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+2020-05-23 20:58:01,748 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+2020-05-23 20:58:01,748 DEBUG l.debug [localhost-startStop-1] x log4jdbc.statement.warn is not defined (using default value false)
+2020-05-23 20:58:01,748 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.select is not defined (using default value true)
+2020-05-23 20:58:01,748 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.insert is not defined (using default value true)
+2020-05-23 20:58:01,748 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.update is not defined (using default value true)
+2020-05-23 20:58:01,748 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.delete is not defined (using default value true)
+2020-05-23 20:58:01,748 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.create is not defined (using default value true)
+2020-05-23 20:58:01,748 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+2020-05-23 20:58:01,748 DEBUG l.debug [localhost-startStop-1] x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+2020-05-23 20:58:01,748 DEBUG l.debug [localhost-startStop-1] x log4jdbc.drivers is not defined
+2020-05-23 20:58:01,749 DEBUG l.debug [localhost-startStop-1] x log4jdbc.trim.sql is not defined (using default value true)
+2020-05-23 20:58:01,749 DEBUG l.debug [localhost-startStop-1] x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+2020-05-23 20:58:01,749 DEBUG l.debug [localhost-startStop-1] x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+2020-05-23 20:58:01,749 DEBUG l.debug [localhost-startStop-1] log4jdbc-logj2 properties initialization done.
+2020-05-23 20:58:01,749 DEBUG l.debug [localhost-startStop-1] DriverSpy intialization...
+2020-05-23 20:58:01,764 DEBUG l.debug [localhost-startStop-1] WARNING!  log4jdbc couldn't find any underlying jdbc drivers.
+2020-05-23 20:58:01,768 DEBUG l.debug [localhost-startStop-1] DriverSpy intialization done.
+2020-05-23 20:58:01,798 DEBUG o.a.i.l.LogFactory [localhost-startStop-1] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-23 20:58:01,987 DEBUG o.m.s.SqlSessionFactoryBean [localhost-startStop-1] Parsed configuration file: 'class path resource [MybatisConfig.xml]'
+2020-05-23 20:58:02,109 DEBUG o.m.s.SqlSessionFactoryBean [localhost-startStop-1] Parsed mapper file: 'file [C:\Project\EZEN-PROJECT\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ctrl\WEB-INF\classes\mappers\ezenbucksMapper.xml]'
+2020-05-23 20:58:04,309 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-2] Creating a new SqlSession
+2020-05-23 20:58:04,325 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-2] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70a0afe3] was not registered for synchronization because synchronization is not active
+2020-05-23 20:58:04,369 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-2] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@70a0afe3]
+2020-05-23 21:08:55,515 DEBUG l.debug [localhost-startStop-1] log4jdbc-logj2 properties initialization...
+2020-05-23 21:08:55,517 DEBUG l.debug [localhost-startStop-1] Using logger: net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
+2020-05-23 21:08:55,517 DEBUG l.debug [localhost-startStop-1] x log4jdbc.debug.stack.prefix is not defined
+2020-05-23 21:08:55,517 DEBUG l.debug [localhost-startStop-1] x log4jdbc.sqltiming.warn.threshold is not defined
+2020-05-23 21:08:55,517 DEBUG l.debug [localhost-startStop-1] x log4jdbc.sqltiming.error.threshold is not defined
+2020-05-23 21:08:55,517 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+2020-05-23 21:08:55,517 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+2020-05-23 21:08:55,517 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+2020-05-23 21:08:55,517 DEBUG l.debug [localhost-startStop-1] x log4jdbc.statement.warn is not defined (using default value false)
+2020-05-23 21:08:55,517 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.select is not defined (using default value true)
+2020-05-23 21:08:55,517 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.insert is not defined (using default value true)
+2020-05-23 21:08:55,517 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.update is not defined (using default value true)
+2020-05-23 21:08:55,518 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.delete is not defined (using default value true)
+2020-05-23 21:08:55,518 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.create is not defined (using default value true)
+2020-05-23 21:08:55,518 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+2020-05-23 21:08:55,518 DEBUG l.debug [localhost-startStop-1] x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+2020-05-23 21:08:55,518 DEBUG l.debug [localhost-startStop-1] x log4jdbc.drivers is not defined
+2020-05-23 21:08:55,518 DEBUG l.debug [localhost-startStop-1] x log4jdbc.trim.sql is not defined (using default value true)
+2020-05-23 21:08:55,518 DEBUG l.debug [localhost-startStop-1] x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+2020-05-23 21:08:55,518 DEBUG l.debug [localhost-startStop-1] x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+2020-05-23 21:08:55,518 DEBUG l.debug [localhost-startStop-1] log4jdbc-logj2 properties initialization done.
+2020-05-23 21:08:55,518 DEBUG l.debug [localhost-startStop-1] DriverSpy intialization...
+2020-05-23 21:08:55,577 DEBUG l.debug [localhost-startStop-1]   FOUND DRIVER oracle.jdbc.OracleDriver
+2020-05-23 21:08:55,577 DEBUG l.debug [localhost-startStop-1]   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+2020-05-23 21:08:55,587 DEBUG l.debug [localhost-startStop-1] DriverSpy intialization done.
+2020-05-23 21:08:55,620 DEBUG o.a.i.l.LogFactory [localhost-startStop-1] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-23 21:08:55,811 DEBUG o.m.s.SqlSessionFactoryBean [localhost-startStop-1] Parsed configuration file: 'class path resource [MybatisConfig.xml]'
+2020-05-23 21:08:55,935 DEBUG o.m.s.SqlSessionFactoryBean [localhost-startStop-1] Parsed mapper file: 'file [C:\Project\EZEN-PROJECT\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ctrl\WEB-INF\classes\mappers\ezenbucksMapper.xml]'
+2020-05-23 21:08:58,135 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-1] Creating a new SqlSession
+2020-05-23 21:08:58,149 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-1] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@249eafb7] was not registered for synchronization because synchronization is not active
+2020-05-23 21:08:58,509 INFO j.connection [http-nio-8081-exec-1] 1. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:08:58,509 DEBUG j.connection [http-nio-8081-exec-1] open connections:  1 (1)
+2020-05-23 21:08:58,510 DEBUG j.audit [http-nio-8081-exec-1] 1. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:08:58,510 DEBUG j.audit [http-nio-8081-exec-1] 1. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:08:58,511 DEBUG j.audit [http-nio-8081-exec-1] 1. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:08:58,513 DEBUG j.audit [http-nio-8081-exec-1] 1. Connection.isValid(1) returned true  com.zaxxer.hikari.pool.PoolBase.checkValidationSupport(PoolBase.java:454)
+2020-05-23 21:08:58,514 DEBUG j.audit [http-nio-8081-exec-1] 1. Connection.getTransactionIsolation() returned 2  com.zaxxer.hikari.pool.PoolBase.checkDefaultIsolation(PoolBase.java:475)
+2020-05-23 21:08:58,528 DEBUG j.audit [http-nio-8081-exec-1] 1. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.HikariProxyConnection.getAutoCommit(HikariProxyConnection.java:-1)
+2020-05-23 21:08:58,528 DEBUG o.m.s.t.SpringManagedTransaction [http-nio-8081-exec-1] JDBC Connection [HikariProxyConnection@242513293 wrapping net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@26518b45] will not be managed by Spring
+2020-05-23 21:08:58,535 DEBUG E.coffeelist [http-nio-8081-exec-1] ==>  Preparing: select coffee_id, coffee_title, coffee_price, coffee_temp, coffee_size from coffee 
+2020-05-23 21:08:58,642 INFO j.connection [HikariPool-1 connection adder] 2. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:08:58,642 DEBUG j.connection [HikariPool-1 connection adder] open connections:  1 2 (2)
+2020-05-23 21:08:58,642 DEBUG j.audit [HikariPool-1 connection adder] 2. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:08:58,643 DEBUG j.audit [HikariPool-1 connection adder] 2. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:08:58,643 DEBUG j.audit [HikariPool-1 connection adder] 2. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:08:58,663 INFO j.connection [HikariPool-1 connection adder] 3. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:08:58,663 DEBUG j.connection [HikariPool-1 connection adder] open connections:  1 2 3 (3)
+2020-05-23 21:08:58,663 DEBUG j.audit [HikariPool-1 connection adder] 3. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:08:58,663 DEBUG j.audit [HikariPool-1 connection adder] 3. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:08:58,663 DEBUG j.audit [HikariPool-1 connection adder] 3. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:08:58,684 INFO j.connection [HikariPool-1 connection adder] 4. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:08:58,684 DEBUG j.connection [HikariPool-1 connection adder] open connections:  1 2 3 4 (4)
+2020-05-23 21:08:58,684 DEBUG j.audit [HikariPool-1 connection adder] 4. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:08:58,684 DEBUG j.audit [HikariPool-1 connection adder] 4. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:08:58,685 DEBUG j.audit [HikariPool-1 connection adder] 4. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:08:58,706 INFO j.connection [HikariPool-1 connection adder] 5. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:08:58,706 DEBUG j.connection [HikariPool-1 connection adder] open connections:  1 2 3 4 5 (5)
+2020-05-23 21:08:58,706 DEBUG j.audit [HikariPool-1 connection adder] 5. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:08:58,706 DEBUG j.audit [HikariPool-1 connection adder] 5. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:08:58,706 DEBUG j.audit [HikariPool-1 connection adder] 5. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:08:58,728 INFO j.connection [HikariPool-1 connection adder] 6. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:08:58,728 DEBUG j.connection [HikariPool-1 connection adder] open connections:  1 2 3 4 5 6 (6)
+2020-05-23 21:08:58,728 DEBUG j.audit [HikariPool-1 connection adder] 6. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:08:58,728 DEBUG j.audit [HikariPool-1 connection adder] 6. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:08:58,728 DEBUG j.audit [HikariPool-1 connection adder] 6. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:08:58,748 INFO j.connection [HikariPool-1 connection adder] 7. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:08:58,748 DEBUG j.connection [HikariPool-1 connection adder] open connections:  1 2 3 4 5 6 7 (7)
+2020-05-23 21:08:58,748 DEBUG j.audit [HikariPool-1 connection adder] 7. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:08:58,748 DEBUG j.audit [HikariPool-1 connection adder] 7. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:08:58,748 DEBUG j.audit [HikariPool-1 connection adder] 7. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:08:58,770 INFO j.connection [HikariPool-1 connection adder] 8. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:08:58,770 DEBUG j.connection [HikariPool-1 connection adder] open connections:  1 2 3 4 5 6 7 8 (8)
+2020-05-23 21:08:58,770 DEBUG j.audit [HikariPool-1 connection adder] 8. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:08:58,770 DEBUG j.audit [http-nio-8081-exec-1] 1. PreparedStatement.new PreparedStatement returned   com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:316)
+2020-05-23 21:08:58,770 DEBUG j.audit [HikariPool-1 connection adder] 8. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:08:58,770 DEBUG j.audit [HikariPool-1 connection adder] 8. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:08:58,770 DEBUG j.audit [http-nio-8081-exec-1] 1. Connection.prepareStatement(select coffee_id, coffee_title, coffee_price, coffee_temp, coffee_size from coffee) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@7a9fabf9  com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:316)
+2020-05-23 21:08:58,785 DEBUG E.coffeelist [http-nio-8081-exec-1] ==> Parameters: 
+2020-05-23 21:08:58,786 DEBUG j.sqlonly [http-nio-8081-exec-1]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. select coffee_id, coffee_title, coffee_price, coffee_temp, coffee_size from coffee 
+
+2020-05-23 21:08:58,789 INFO j.connection [HikariPool-1 connection adder] 9. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:08:58,789 DEBUG j.connection [HikariPool-1 connection adder] open connections:  1 2 3 4 5 6 7 8 9 (9)
+2020-05-23 21:08:58,790 DEBUG j.audit [HikariPool-1 connection adder] 9. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:08:58,790 DEBUG j.audit [HikariPool-1 connection adder] 9. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:08:58,790 DEBUG j.audit [HikariPool-1 connection adder] 9. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:08:58,810 INFO j.connection [HikariPool-1 connection adder] 10. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:08:58,811 DEBUG j.connection [HikariPool-1 connection adder] open connections:  1 2 3 4 5 6 7 8 9 10 (10)
+2020-05-23 21:08:58,811 DEBUG j.audit [HikariPool-1 connection adder] 10. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:08:58,811 DEBUG j.audit [HikariPool-1 connection adder] 10. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:08:58,811 DEBUG j.audit [HikariPool-1 connection adder] 10. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:08:58,818 DEBUG j.audit [http-nio-8081-exec-1] 1. PreparedStatement.execute() returned true  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+2020-05-23 21:08:58,829 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.new ResultSet returned   com.zaxxer.hikari.pool.ProxyStatement.getResultSet(ProxyStatement.java:214)
+2020-05-23 21:08:58,829 DEBUG j.audit [http-nio-8081-exec-1] 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@5d5c685e  com.zaxxer.hikari.pool.ProxyStatement.getResultSet(ProxyStatement.java:214)
+2020-05-23 21:08:58,844 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@310f496f  com.zaxxer.hikari.pool.HikariProxyResultSet.getMetaData(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,847 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getType() returned 1003  com.zaxxer.hikari.pool.HikariProxyResultSet.getType(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,847 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.next() returned true  com.zaxxer.hikari.pool.HikariProxyResultSet.next(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,848 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@6900b8b3  com.zaxxer.hikari.pool.HikariProxyResultSet.getMetaData(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,848 TRACE E.coffeelist [http-nio-8081-exec-1] <==    Columns: COFFEE_ID, COFFEE_TITLE, COFFEE_PRICE, COFFEE_TEMP, COFFEE_SIZE
+2020-05-23 21:08:58,854 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(1) returned 1  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,854 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(2) returned 아이스아메리카노  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,855 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(3) returned 1500  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,855 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(4) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,855 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(5) returned Tall  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,855 TRACE E.coffeelist [http-nio-8081-exec-1] <==        Row: 1, 아이스아메리카노, 1500, HOT, Tall
+2020-05-23 21:08:58,871 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getInt(COFFEE_ID) returned 1  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,871 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,871 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(COFFEE_TITLE) returned 아이스아메리카노  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,872 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,872 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getInt(COFFEE_PRICE) returned 1500  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,872 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,872 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(COFFEE_TEMP) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,872 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,872 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(COFFEE_SIZE) returned Tall  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,873 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,873 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.next() returned true  com.zaxxer.hikari.pool.HikariProxyResultSet.next(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,873 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@1cc2614b  com.zaxxer.hikari.pool.HikariProxyResultSet.getMetaData(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,873 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(1) returned 2  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,874 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(2) returned 카푸치노  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,874 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(3) returned 3000  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,874 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(4) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,874 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(5) returned Grande  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,874 TRACE E.coffeelist [http-nio-8081-exec-1] <==        Row: 2, 카푸치노, 3000, HOT, Grande
+2020-05-23 21:08:58,875 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getInt(COFFEE_ID) returned 2  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,875 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,875 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(COFFEE_TITLE) returned 카푸치노  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,875 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,876 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getInt(COFFEE_PRICE) returned 3000  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,876 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,876 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(COFFEE_TEMP) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,876 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,876 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(COFFEE_SIZE) returned Grande  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,877 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,877 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.next() returned true  com.zaxxer.hikari.pool.HikariProxyResultSet.next(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,877 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@25e4e9a4  com.zaxxer.hikari.pool.HikariProxyResultSet.getMetaData(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,878 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(1) returned 3  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,878 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(2) returned 캬라멜마끼아또  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,878 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(3) returned 2000  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,879 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(4) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,879 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(5) returned Venti  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,879 TRACE E.coffeelist [http-nio-8081-exec-1] <==        Row: 3, 캬라멜마끼아또, 2000, HOT, Venti
+2020-05-23 21:08:58,879 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getInt(COFFEE_ID) returned 3  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,880 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,880 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(COFFEE_TITLE) returned 캬라멜마끼아또  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,880 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,880 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getInt(COFFEE_PRICE) returned 2000  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,880 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,881 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(COFFEE_TEMP) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,881 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,881 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(COFFEE_SIZE) returned Venti  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,881 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,881 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.next() returned true  com.zaxxer.hikari.pool.HikariProxyResultSet.next(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,881 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@1bd1e3c2  com.zaxxer.hikari.pool.HikariProxyResultSet.getMetaData(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,882 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(1) returned 4  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,882 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(2) returned 청포도에이드  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,882 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(3) returned 1000  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,882 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(4) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,882 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(5) returned Tall  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,883 TRACE E.coffeelist [http-nio-8081-exec-1] <==        Row: 4, 청포도에이드, 1000, HOT, Tall
+2020-05-23 21:08:58,883 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getInt(COFFEE_ID) returned 4  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,883 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,883 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(COFFEE_TITLE) returned 청포도에이드  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,883 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,883 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getInt(COFFEE_PRICE) returned 1000  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,883 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,884 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(COFFEE_TEMP) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,884 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,884 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(COFFEE_SIZE) returned Tall  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,884 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,884 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.next() returned true  com.zaxxer.hikari.pool.HikariProxyResultSet.next(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,885 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@28c1bf87  com.zaxxer.hikari.pool.HikariProxyResultSet.getMetaData(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,885 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(1) returned 5  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,885 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(2) returned 아무거나  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,885 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(3) returned 1500  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,885 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(4) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,885 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(5) returned Tall  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,885 TRACE E.coffeelist [http-nio-8081-exec-1] <==        Row: 5, 아무거나, 1500, HOT, Tall
+2020-05-23 21:08:58,886 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getInt(COFFEE_ID) returned 5  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,886 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,886 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(COFFEE_TITLE) returned 아무거나  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,886 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,886 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getInt(COFFEE_PRICE) returned 1500  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,886 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,886 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(COFFEE_TEMP) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,887 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,887 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(COFFEE_SIZE) returned Tall  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,887 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,887 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.next() returned true  com.zaxxer.hikari.pool.HikariProxyResultSet.next(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,887 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@2a6adaf2  com.zaxxer.hikari.pool.HikariProxyResultSet.getMetaData(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,888 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(1) returned 6  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,888 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(2) returned 아이스아메리카노  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,888 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(3) returned 1500  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,888 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(4) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,888 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(5) returned Tall  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,888 TRACE E.coffeelist [http-nio-8081-exec-1] <==        Row: 6, 아이스아메리카노, 1500, HOT, Tall
+2020-05-23 21:08:58,888 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getInt(COFFEE_ID) returned 6  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,889 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,889 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(COFFEE_TITLE) returned 아이스아메리카노  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,889 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,889 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getInt(COFFEE_PRICE) returned 1500  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,889 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,890 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(COFFEE_TEMP) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,890 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,890 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.getString(COFFEE_SIZE) returned Tall  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,890 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,892 INFO j.resultsettable [http-nio-8081-exec-1] 
+|----------|-------------|-------------|------------|------------|
+|coffee_id |coffee_title |coffee_price |coffee_temp |coffee_size |
+|----------|-------------|-------------|------------|------------|
+|1         |아이스아메리카노     |1500         |HOT         |Tall        |
+|2         |카푸치노         |3000         |HOT         |Grande      |
+|3         |캬라멜마끼아또      |2000         |HOT         |Venti       |
+|4         |청포도에이드       |1000         |HOT         |Tall        |
+|5         |아무거나         |1500         |HOT         |Tall        |
+|6         |아이스아메리카노     |1500         |HOT         |Tall        |
+|----------|-------------|-------------|------------|------------|
+
+2020-05-23 21:08:58,893 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.next() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.next(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,893 DEBUG E.coffeelist [http-nio-8081-exec-1] <==      Total: 6
+2020-05-23 21:08:58,893 DEBUG j.resultset [http-nio-8081-exec-1] 1. ResultSet.close() returned void  com.zaxxer.hikari.pool.HikariProxyResultSet.close(HikariProxyResultSet.java:-1)
+2020-05-23 21:08:58,894 DEBUG j.audit [http-nio-8081-exec-1] 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@722b19b4  com.zaxxer.hikari.pool.ProxyConnection.getMetaData(ProxyConnection.java:359)
+2020-05-23 21:08:58,899 DEBUG j.audit [http-nio-8081-exec-1] 1. PreparedStatement.isClosed() returned false  com.zaxxer.hikari.pool.HikariProxyPreparedStatement.isClosed(HikariProxyPreparedStatement.java:-1)
+2020-05-23 21:08:58,899 DEBUG j.audit [http-nio-8081-exec-1] 1. PreparedStatement.close() returned   com.zaxxer.hikari.pool.ProxyStatement.close(ProxyStatement.java:76)
+2020-05-23 21:08:58,899 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-1] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@249eafb7]
+2020-05-23 21:08:58,902 DEBUG j.audit [http-nio-8081-exec-1] 1. Connection.clearWarnings() returned   com.zaxxer.hikari.pool.ProxyConnection.close(ProxyConnection.java:246)
+2020-05-23 21:21:51,444 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-7] Creating a new SqlSession
+2020-05-23 21:21:51,444 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-7] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52a73d90] was not registered for synchronization because synchronization is not active
+2020-05-23 21:21:51,450 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-7] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52a73d90]
+2020-05-23 21:22:30,907 DEBUG o.m.s.SqlSessionUtils [ContainerBackgroundProcessor[StandardEngine[Catalina]]] Creating a new SqlSession
+2020-05-23 21:22:30,907 DEBUG o.m.s.SqlSessionUtils [ContainerBackgroundProcessor[StandardEngine[Catalina]]] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4bf7c3d4] was not registered for synchronization because synchronization is not active
+2020-05-23 21:22:30,907 DEBUG o.m.s.SqlSessionUtils [ContainerBackgroundProcessor[StandardEngine[Catalina]]] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4bf7c3d4]
+2020-05-23 21:22:30,910 INFO j.connection [HikariPool-1 connection closer] 1. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:22:30,911 DEBUG j.connection [HikariPool-1 connection closer] open connections:  2 3 4 5 6 7 8 9 10 (9)
+2020-05-23 21:22:30,911 DEBUG j.audit [HikariPool-1 connection closer] 1. Connection.close() returned   com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:22:30,912 INFO j.connection [HikariPool-1 connection closer] 2. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:22:30,912 DEBUG j.connection [HikariPool-1 connection closer] open connections:  3 4 5 6 7 8 9 10 (8)
+2020-05-23 21:22:30,912 DEBUG j.audit [HikariPool-1 connection closer] 2. Connection.close() returned   com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:22:30,912 INFO j.connection [HikariPool-1 connection closer] 3. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:22:30,913 DEBUG j.connection [HikariPool-1 connection closer] open connections:  4 5 6 7 8 9 10 (7)
+2020-05-23 21:22:30,913 DEBUG j.audit [HikariPool-1 connection closer] 3. Connection.close() returned   com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:22:30,914 INFO j.connection [HikariPool-1 connection closer] 4. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:22:30,914 DEBUG j.connection [HikariPool-1 connection closer] open connections:  5 6 7 8 9 10 (6)
+2020-05-23 21:22:30,914 DEBUG j.audit [HikariPool-1 connection closer] 4. Connection.close() returned   com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:22:30,915 INFO j.connection [HikariPool-1 connection closer] 5. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:22:30,915 DEBUG j.connection [HikariPool-1 connection closer] open connections:  6 7 8 9 10 (5)
+2020-05-23 21:22:30,915 DEBUG j.audit [HikariPool-1 connection closer] 5. Connection.close() returned   com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:22:30,916 INFO j.connection [HikariPool-1 connection closer] 6. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:22:30,916 DEBUG j.connection [HikariPool-1 connection closer] open connections:  7 8 9 10 (4)
+2020-05-23 21:22:30,917 DEBUG j.audit [HikariPool-1 connection closer] 6. Connection.close() returned   com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:22:30,918 INFO j.connection [HikariPool-1 connection closer] 7. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:22:30,918 DEBUG j.connection [HikariPool-1 connection closer] open connections:  8 9 10 (3)
+2020-05-23 21:22:30,918 DEBUG j.audit [HikariPool-1 connection closer] 7. Connection.close() returned   com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:22:30,919 INFO j.connection [HikariPool-1 connection closer] 8. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:22:30,919 DEBUG j.connection [HikariPool-1 connection closer] open connections:  9 10 (2)
+2020-05-23 21:22:30,919 DEBUG j.audit [HikariPool-1 connection closer] 8. Connection.close() returned   com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:22:30,920 INFO j.connection [HikariPool-1 connection closer] 9. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:22:30,920 DEBUG j.connection [HikariPool-1 connection closer] open connections:  10 (1)
+2020-05-23 21:22:30,920 DEBUG j.audit [HikariPool-1 connection closer] 9. Connection.close() returned   com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:22:30,921 INFO j.connection [HikariPool-1 connection closer] 10. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:22:30,922 DEBUG j.connection [HikariPool-1 connection closer] open connections:  none
+2020-05-23 21:22:30,922 DEBUG j.audit [HikariPool-1 connection closer] 10. Connection.close() returned   com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:22:39,902 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] log4jdbc-logj2 properties initialization...
+2020-05-23 21:22:39,903 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] Using logger: net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
+2020-05-23 21:22:39,903 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.debug.stack.prefix is not defined
+2020-05-23 21:22:39,903 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.sqltiming.warn.threshold is not defined
+2020-05-23 21:22:39,903 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.sqltiming.error.threshold is not defined
+2020-05-23 21:22:39,903 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+2020-05-23 21:22:39,903 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+2020-05-23 21:22:39,903 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+2020-05-23 21:22:39,903 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.statement.warn is not defined (using default value false)
+2020-05-23 21:22:39,903 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.dump.sql.select is not defined (using default value true)
+2020-05-23 21:22:39,903 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.dump.sql.insert is not defined (using default value true)
+2020-05-23 21:22:39,904 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.dump.sql.update is not defined (using default value true)
+2020-05-23 21:22:39,904 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.dump.sql.delete is not defined (using default value true)
+2020-05-23 21:22:39,904 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.dump.sql.create is not defined (using default value true)
+2020-05-23 21:22:39,904 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+2020-05-23 21:22:39,904 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+2020-05-23 21:22:39,904 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.drivers is not defined
+2020-05-23 21:22:39,904 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.trim.sql is not defined (using default value true)
+2020-05-23 21:22:39,904 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+2020-05-23 21:22:39,904 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+2020-05-23 21:22:39,904 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] log4jdbc-logj2 properties initialization done.
+2020-05-23 21:22:39,904 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DriverSpy intialization...
+2020-05-23 21:22:39,961 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]]   FOUND DRIVER oracle.jdbc.OracleDriver
+2020-05-23 21:22:39,961 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]]   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+2020-05-23 21:22:39,970 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DriverSpy intialization done.
+2020-05-23 21:22:40,000 DEBUG o.a.i.l.LogFactory [ContainerBackgroundProcessor[StandardEngine[Catalina]]] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-23 21:22:40,179 DEBUG o.m.s.SqlSessionFactoryBean [ContainerBackgroundProcessor[StandardEngine[Catalina]]] Parsed configuration file: 'class path resource [MybatisConfig.xml]'
+2020-05-23 21:22:40,303 DEBUG o.m.s.SqlSessionFactoryBean [ContainerBackgroundProcessor[StandardEngine[Catalina]]] Parsed mapper file: 'file [C:\Project\EZEN-PROJECT\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ctrl\WEB-INF\classes\mappers\ezenbucksMapper.xml]'
+2020-05-23 21:23:00,655 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-9] Creating a new SqlSession
+2020-05-23 21:23:00,667 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-9] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5bb74537] was not registered for synchronization because synchronization is not active
+2020-05-23 21:23:00,976 INFO j.connection [http-nio-8081-exec-9] 1. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:23:00,976 DEBUG j.connection [http-nio-8081-exec-9] open connections:  1 (1)
+2020-05-23 21:23:00,976 DEBUG j.audit [http-nio-8081-exec-9] 1. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:23:00,976 DEBUG j.audit [http-nio-8081-exec-9] 1. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:23:00,977 DEBUG j.audit [http-nio-8081-exec-9] 1. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:23:00,979 DEBUG j.audit [http-nio-8081-exec-9] 1. Connection.isValid(1) returned true  com.zaxxer.hikari.pool.PoolBase.checkValidationSupport(PoolBase.java:454)
+2020-05-23 21:23:00,979 DEBUG j.audit [http-nio-8081-exec-9] 1. Connection.getTransactionIsolation() returned 2  com.zaxxer.hikari.pool.PoolBase.checkDefaultIsolation(PoolBase.java:475)
+2020-05-23 21:23:00,992 DEBUG j.audit [http-nio-8081-exec-9] 1. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.HikariProxyConnection.getAutoCommit(HikariProxyConnection.java:-1)
+2020-05-23 21:23:00,992 DEBUG o.m.s.t.SpringManagedTransaction [http-nio-8081-exec-9] JDBC Connection [HikariProxyConnection@1451972442 wrapping net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@b5d9f3c] will not be managed by Spring
+2020-05-23 21:23:00,996 DEBUG E.foodlist [http-nio-8081-exec-9] ==>  Preparing: select food_id, food_title, food_price from food 
+2020-05-23 21:23:01,106 INFO j.connection [HikariPool-2 connection adder] 2. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:23:01,107 DEBUG j.connection [HikariPool-2 connection adder] open connections:  1 2 (2)
+2020-05-23 21:23:01,107 DEBUG j.audit [HikariPool-2 connection adder] 2. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:23:01,107 DEBUG j.audit [HikariPool-2 connection adder] 2. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:23:01,107 DEBUG j.audit [HikariPool-2 connection adder] 2. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:23:01,126 INFO j.connection [HikariPool-2 connection adder] 3. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:23:01,126 DEBUG j.connection [HikariPool-2 connection adder] open connections:  1 2 3 (3)
+2020-05-23 21:23:01,126 DEBUG j.audit [HikariPool-2 connection adder] 3. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:23:01,126 DEBUG j.audit [HikariPool-2 connection adder] 3. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:23:01,126 DEBUG j.audit [HikariPool-2 connection adder] 3. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:23:01,145 INFO j.connection [HikariPool-2 connection adder] 4. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:23:01,145 DEBUG j.connection [HikariPool-2 connection adder] open connections:  1 2 3 4 (4)
+2020-05-23 21:23:01,145 DEBUG j.audit [HikariPool-2 connection adder] 4. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:23:01,145 DEBUG j.audit [HikariPool-2 connection adder] 4. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:23:01,145 DEBUG j.audit [HikariPool-2 connection adder] 4. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:23:01,166 INFO j.connection [HikariPool-2 connection adder] 5. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:23:01,166 DEBUG j.connection [HikariPool-2 connection adder] open connections:  1 2 3 4 5 (5)
+2020-05-23 21:23:01,166 DEBUG j.audit [HikariPool-2 connection adder] 5. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:23:01,167 DEBUG j.audit [HikariPool-2 connection adder] 5. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:23:01,167 DEBUG j.audit [HikariPool-2 connection adder] 5. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:23:01,187 INFO j.connection [HikariPool-2 connection adder] 6. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:23:01,187 DEBUG j.connection [HikariPool-2 connection adder] open connections:  1 2 3 4 5 6 (6)
+2020-05-23 21:23:01,187 DEBUG j.audit [HikariPool-2 connection adder] 6. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:23:01,187 DEBUG j.audit [HikariPool-2 connection adder] 6. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:23:01,187 DEBUG j.audit [HikariPool-2 connection adder] 6. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:23:01,205 INFO j.connection [HikariPool-2 connection adder] 7. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:23:01,205 DEBUG j.connection [HikariPool-2 connection adder] open connections:  1 2 3 4 5 6 7 (7)
+2020-05-23 21:23:01,205 DEBUG j.audit [HikariPool-2 connection adder] 7. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:23:01,205 DEBUG j.audit [HikariPool-2 connection adder] 7. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:23:01,205 DEBUG j.audit [HikariPool-2 connection adder] 7. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:23:01,217 DEBUG j.audit [http-nio-8081-exec-9] 1. PreparedStatement.new PreparedStatement returned   com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:316)
+2020-05-23 21:23:01,217 DEBUG j.audit [http-nio-8081-exec-9] 1. Connection.prepareStatement(select food_id, food_title, food_price from food) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@3f8fd4bf  com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:316)
+2020-05-23 21:23:01,224 INFO j.connection [HikariPool-2 connection adder] 8. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:23:01,224 DEBUG j.connection [HikariPool-2 connection adder] open connections:  1 2 3 4 5 6 7 8 (8)
+2020-05-23 21:23:01,225 DEBUG j.audit [HikariPool-2 connection adder] 8. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:23:01,225 DEBUG j.audit [HikariPool-2 connection adder] 8. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:23:01,225 DEBUG j.audit [HikariPool-2 connection adder] 8. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:23:01,226 DEBUG E.foodlist [http-nio-8081-exec-9] ==> Parameters: 
+2020-05-23 21:23:01,226 DEBUG j.sqlonly [http-nio-8081-exec-9]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. select food_id, food_title, food_price from food 
+
+2020-05-23 21:23:01,243 INFO j.connection [HikariPool-2 connection adder] 9. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:23:01,243 DEBUG j.connection [HikariPool-2 connection adder] open connections:  1 2 3 4 5 6 7 8 9 (9)
+2020-05-23 21:23:01,243 DEBUG j.audit [HikariPool-2 connection adder] 9. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:23:01,243 DEBUG j.audit [HikariPool-2 connection adder] 9. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:23:01,243 DEBUG j.audit [HikariPool-2 connection adder] 9. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:23:01,255 DEBUG j.audit [http-nio-8081-exec-9] 1. PreparedStatement.execute() returned true  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+2020-05-23 21:23:01,262 INFO j.connection [HikariPool-2 connection adder] 10. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:23:01,262 DEBUG j.connection [HikariPool-2 connection adder] open connections:  1 2 3 4 5 6 7 8 9 10 (10)
+2020-05-23 21:23:01,262 DEBUG j.audit [HikariPool-2 connection adder] 10. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:23:01,262 DEBUG j.audit [HikariPool-2 connection adder] 10. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:23:01,262 DEBUG j.audit [HikariPool-2 connection adder] 10. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:23:01,266 DEBUG j.resultset [http-nio-8081-exec-9] 1. ResultSet.new ResultSet returned   com.zaxxer.hikari.pool.ProxyStatement.getResultSet(ProxyStatement.java:214)
+2020-05-23 21:23:01,266 DEBUG j.audit [http-nio-8081-exec-9] 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@70387ffb  com.zaxxer.hikari.pool.ProxyStatement.getResultSet(ProxyStatement.java:214)
+2020-05-23 21:23:01,279 DEBUG j.resultset [http-nio-8081-exec-9] 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@26ab6435  com.zaxxer.hikari.pool.HikariProxyResultSet.getMetaData(HikariProxyResultSet.java:-1)
+2020-05-23 21:23:01,282 DEBUG j.resultset [http-nio-8081-exec-9] 1. ResultSet.getType() returned 1003  com.zaxxer.hikari.pool.HikariProxyResultSet.getType(HikariProxyResultSet.java:-1)
+2020-05-23 21:23:01,283 INFO j.resultsettable [http-nio-8081-exec-9] 
+|--------|-----------|-----------|
+|food_id |food_title |food_price |
+|--------|-----------|-----------|
+|--------|-----------|-----------|
+
+2020-05-23 21:23:01,284 DEBUG j.resultset [http-nio-8081-exec-9] 1. ResultSet.next() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.next(HikariProxyResultSet.java:-1)
+2020-05-23 21:23:01,284 DEBUG E.foodlist [http-nio-8081-exec-9] <==      Total: 0
+2020-05-23 21:23:01,284 DEBUG j.resultset [http-nio-8081-exec-9] 1. ResultSet.close() returned void  com.zaxxer.hikari.pool.HikariProxyResultSet.close(HikariProxyResultSet.java:-1)
+2020-05-23 21:23:01,284 DEBUG j.audit [http-nio-8081-exec-9] 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@221ddc98  com.zaxxer.hikari.pool.ProxyConnection.getMetaData(ProxyConnection.java:359)
+2020-05-23 21:23:01,289 DEBUG j.audit [http-nio-8081-exec-9] 1. PreparedStatement.isClosed() returned false  com.zaxxer.hikari.pool.HikariProxyPreparedStatement.isClosed(HikariProxyPreparedStatement.java:-1)
+2020-05-23 21:23:01,289 DEBUG j.audit [http-nio-8081-exec-9] 1. PreparedStatement.close() returned   com.zaxxer.hikari.pool.ProxyStatement.close(ProxyStatement.java:76)
+2020-05-23 21:23:01,289 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-9] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5bb74537]
+2020-05-23 21:23:01,292 DEBUG j.audit [http-nio-8081-exec-9] 1. Connection.clearWarnings() returned   com.zaxxer.hikari.pool.ProxyConnection.close(ProxyConnection.java:246)
+2020-05-23 21:23:02,569 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-6] Creating a new SqlSession
+2020-05-23 21:23:02,569 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-6] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bcdb285] was not registered for synchronization because synchronization is not active
+2020-05-23 21:23:02,570 DEBUG j.audit [http-nio-8081-exec-6] 1. Connection.isValid(5) returned true  com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:157)
+2020-05-23 21:23:02,570 DEBUG j.audit [http-nio-8081-exec-6] 1. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.HikariProxyConnection.getAutoCommit(HikariProxyConnection.java:-1)
+2020-05-23 21:23:02,570 DEBUG o.m.s.t.SpringManagedTransaction [http-nio-8081-exec-6] JDBC Connection [HikariProxyConnection@1963606924 wrapping net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@b5d9f3c] will not be managed by Spring
+2020-05-23 21:23:02,570 DEBUG E.foodlist [http-nio-8081-exec-6] ==>  Preparing: select food_id, food_title, food_price from food 
+2020-05-23 21:23:02,571 DEBUG j.audit [http-nio-8081-exec-6] 1. PreparedStatement.new PreparedStatement returned   com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:316)
+2020-05-23 21:23:02,571 DEBUG j.audit [http-nio-8081-exec-6] 1. Connection.prepareStatement(select food_id, food_title, food_price from food) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@7135d9f5  com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:316)
+2020-05-23 21:23:02,571 DEBUG E.foodlist [http-nio-8081-exec-6] ==> Parameters: 
+2020-05-23 21:23:02,571 DEBUG j.sqlonly [http-nio-8081-exec-6]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. select food_id, food_title, food_price from food 
+
+2020-05-23 21:23:02,572 DEBUG j.audit [http-nio-8081-exec-6] 1. PreparedStatement.execute() returned true  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+2020-05-23 21:23:02,572 DEBUG j.resultset [http-nio-8081-exec-6] 1. ResultSet.new ResultSet returned   com.zaxxer.hikari.pool.ProxyStatement.getResultSet(ProxyStatement.java:214)
+2020-05-23 21:23:02,572 DEBUG j.audit [http-nio-8081-exec-6] 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@343749b7  com.zaxxer.hikari.pool.ProxyStatement.getResultSet(ProxyStatement.java:214)
+2020-05-23 21:23:02,572 DEBUG j.resultset [http-nio-8081-exec-6] 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@22789c2e  com.zaxxer.hikari.pool.HikariProxyResultSet.getMetaData(HikariProxyResultSet.java:-1)
+2020-05-23 21:23:02,573 DEBUG j.resultset [http-nio-8081-exec-6] 1. ResultSet.getType() returned 1003  com.zaxxer.hikari.pool.HikariProxyResultSet.getType(HikariProxyResultSet.java:-1)
+2020-05-23 21:23:02,573 INFO j.resultsettable [http-nio-8081-exec-6] 
+|--------|-----------|-----------|
+|food_id |food_title |food_price |
+|--------|-----------|-----------|
+|--------|-----------|-----------|
+
+2020-05-23 21:23:02,573 DEBUG j.resultset [http-nio-8081-exec-6] 1. ResultSet.next() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.next(HikariProxyResultSet.java:-1)
+2020-05-23 21:23:02,573 DEBUG E.foodlist [http-nio-8081-exec-6] <==      Total: 0
+2020-05-23 21:23:02,573 DEBUG j.resultset [http-nio-8081-exec-6] 1. ResultSet.close() returned void  com.zaxxer.hikari.pool.HikariProxyResultSet.close(HikariProxyResultSet.java:-1)
+2020-05-23 21:23:02,573 DEBUG j.audit [http-nio-8081-exec-6] 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@221ddc98  com.zaxxer.hikari.pool.ProxyConnection.getMetaData(ProxyConnection.java:359)
+2020-05-23 21:23:02,574 DEBUG j.audit [http-nio-8081-exec-6] 1. PreparedStatement.isClosed() returned false  com.zaxxer.hikari.pool.HikariProxyPreparedStatement.isClosed(HikariProxyPreparedStatement.java:-1)
+2020-05-23 21:23:02,574 DEBUG j.audit [http-nio-8081-exec-6] 1. PreparedStatement.close() returned   com.zaxxer.hikari.pool.ProxyStatement.close(ProxyStatement.java:76)
+2020-05-23 21:23:02,574 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-6] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7bcdb285]
+2020-05-23 21:23:02,574 DEBUG j.audit [http-nio-8081-exec-6] 1. Connection.clearWarnings() returned   com.zaxxer.hikari.pool.ProxyConnection.close(ProxyConnection.java:246)
+2020-05-23 21:23:58,767 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-11] Creating a new SqlSession
+2020-05-23 21:23:58,768 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-11] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5126f51] was not registered for synchronization because synchronization is not active
+2020-05-23 21:23:58,769 DEBUG j.audit [http-nio-8081-exec-11] 1. Connection.isValid(5) returned true  com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:157)
+2020-05-23 21:23:58,769 DEBUG j.audit [http-nio-8081-exec-11] 1. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.HikariProxyConnection.getAutoCommit(HikariProxyConnection.java:-1)
+2020-05-23 21:23:58,769 DEBUG o.m.s.t.SpringManagedTransaction [http-nio-8081-exec-11] JDBC Connection [HikariProxyConnection@198545795 wrapping net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@b5d9f3c] will not be managed by Spring
+2020-05-23 21:23:58,769 DEBUG E.foodlist [http-nio-8081-exec-11] ==>  Preparing: select food_id, food_title, food_price from food 
+2020-05-23 21:23:58,769 DEBUG j.audit [http-nio-8081-exec-11] 1. PreparedStatement.new PreparedStatement returned   com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:316)
+2020-05-23 21:23:58,770 DEBUG j.audit [http-nio-8081-exec-11] 1. Connection.prepareStatement(select food_id, food_title, food_price from food) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@fea0421  com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:316)
+2020-05-23 21:23:58,770 DEBUG E.foodlist [http-nio-8081-exec-11] ==> Parameters: 
+2020-05-23 21:23:58,770 DEBUG j.sqlonly [http-nio-8081-exec-11]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. select food_id, food_title, food_price from food 
+
+2020-05-23 21:23:58,771 DEBUG j.audit [http-nio-8081-exec-11] 1. PreparedStatement.execute() returned true  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+2020-05-23 21:23:58,771 DEBUG j.resultset [http-nio-8081-exec-11] 1. ResultSet.new ResultSet returned   com.zaxxer.hikari.pool.ProxyStatement.getResultSet(ProxyStatement.java:214)
+2020-05-23 21:23:58,771 DEBUG j.audit [http-nio-8081-exec-11] 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@4ae89bb8  com.zaxxer.hikari.pool.ProxyStatement.getResultSet(ProxyStatement.java:214)
+2020-05-23 21:23:58,771 DEBUG j.resultset [http-nio-8081-exec-11] 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@5c160d53  com.zaxxer.hikari.pool.HikariProxyResultSet.getMetaData(HikariProxyResultSet.java:-1)
+2020-05-23 21:23:58,771 DEBUG j.resultset [http-nio-8081-exec-11] 1. ResultSet.getType() returned 1003  com.zaxxer.hikari.pool.HikariProxyResultSet.getType(HikariProxyResultSet.java:-1)
+2020-05-23 21:23:58,771 INFO j.resultsettable [http-nio-8081-exec-11] 
+|--------|-----------|-----------|
+|food_id |food_title |food_price |
+|--------|-----------|-----------|
+|--------|-----------|-----------|
+
+2020-05-23 21:23:58,772 DEBUG j.resultset [http-nio-8081-exec-11] 1. ResultSet.next() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.next(HikariProxyResultSet.java:-1)
+2020-05-23 21:23:58,772 DEBUG E.foodlist [http-nio-8081-exec-11] <==      Total: 0
+2020-05-23 21:23:58,772 DEBUG j.resultset [http-nio-8081-exec-11] 1. ResultSet.close() returned void  com.zaxxer.hikari.pool.HikariProxyResultSet.close(HikariProxyResultSet.java:-1)
+2020-05-23 21:23:58,772 DEBUG j.audit [http-nio-8081-exec-11] 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@221ddc98  com.zaxxer.hikari.pool.ProxyConnection.getMetaData(ProxyConnection.java:359)
+2020-05-23 21:23:58,772 DEBUG j.audit [http-nio-8081-exec-11] 1. PreparedStatement.isClosed() returned false  com.zaxxer.hikari.pool.HikariProxyPreparedStatement.isClosed(HikariProxyPreparedStatement.java:-1)
+2020-05-23 21:23:58,772 DEBUG j.audit [http-nio-8081-exec-11] 1. PreparedStatement.close() returned   com.zaxxer.hikari.pool.ProxyStatement.close(ProxyStatement.java:76)
+2020-05-23 21:23:58,772 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-11] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5126f51]
+2020-05-23 21:23:58,773 DEBUG j.audit [http-nio-8081-exec-11] 1. Connection.clearWarnings() returned   com.zaxxer.hikari.pool.ProxyConnection.close(ProxyConnection.java:246)
+2020-05-23 21:24:00,119 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-12] Creating a new SqlSession
+2020-05-23 21:24:00,119 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-12] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c0a7d18] was not registered for synchronization because synchronization is not active
+2020-05-23 21:24:00,120 DEBUG j.audit [http-nio-8081-exec-12] 1. Connection.isValid(5) returned true  com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:157)
+2020-05-23 21:24:00,120 DEBUG j.audit [http-nio-8081-exec-12] 1. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.HikariProxyConnection.getAutoCommit(HikariProxyConnection.java:-1)
+2020-05-23 21:24:00,120 DEBUG o.m.s.t.SpringManagedTransaction [http-nio-8081-exec-12] JDBC Connection [HikariProxyConnection@1926077673 wrapping net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@b5d9f3c] will not be managed by Spring
+2020-05-23 21:24:00,121 DEBUG E.foodlist [http-nio-8081-exec-12] ==>  Preparing: select food_id, food_title, food_price from food 
+2020-05-23 21:24:00,121 DEBUG j.audit [http-nio-8081-exec-12] 1. PreparedStatement.new PreparedStatement returned   com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:316)
+2020-05-23 21:24:00,121 DEBUG j.audit [http-nio-8081-exec-12] 1. Connection.prepareStatement(select food_id, food_title, food_price from food) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@76f21668  com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:316)
+2020-05-23 21:24:00,121 DEBUG E.foodlist [http-nio-8081-exec-12] ==> Parameters: 
+2020-05-23 21:24:00,121 DEBUG j.sqlonly [http-nio-8081-exec-12]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. select food_id, food_title, food_price from food 
+
+2020-05-23 21:24:00,122 DEBUG j.audit [http-nio-8081-exec-12] 1. PreparedStatement.execute() returned true  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+2020-05-23 21:24:00,122 DEBUG j.resultset [http-nio-8081-exec-12] 1. ResultSet.new ResultSet returned   com.zaxxer.hikari.pool.ProxyStatement.getResultSet(ProxyStatement.java:214)
+2020-05-23 21:24:00,122 DEBUG j.audit [http-nio-8081-exec-12] 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@33f096d2  com.zaxxer.hikari.pool.ProxyStatement.getResultSet(ProxyStatement.java:214)
+2020-05-23 21:24:00,122 DEBUG j.resultset [http-nio-8081-exec-12] 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@1cbdcf09  com.zaxxer.hikari.pool.HikariProxyResultSet.getMetaData(HikariProxyResultSet.java:-1)
+2020-05-23 21:24:00,122 DEBUG j.resultset [http-nio-8081-exec-12] 1. ResultSet.getType() returned 1003  com.zaxxer.hikari.pool.HikariProxyResultSet.getType(HikariProxyResultSet.java:-1)
+2020-05-23 21:24:00,123 INFO j.resultsettable [http-nio-8081-exec-12] 
+|--------|-----------|-----------|
+|food_id |food_title |food_price |
+|--------|-----------|-----------|
+|--------|-----------|-----------|
+
+2020-05-23 21:24:00,123 DEBUG j.resultset [http-nio-8081-exec-12] 1. ResultSet.next() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.next(HikariProxyResultSet.java:-1)
+2020-05-23 21:24:00,123 DEBUG E.foodlist [http-nio-8081-exec-12] <==      Total: 0
+2020-05-23 21:24:00,123 DEBUG j.resultset [http-nio-8081-exec-12] 1. ResultSet.close() returned void  com.zaxxer.hikari.pool.HikariProxyResultSet.close(HikariProxyResultSet.java:-1)
+2020-05-23 21:24:00,123 DEBUG j.audit [http-nio-8081-exec-12] 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@221ddc98  com.zaxxer.hikari.pool.ProxyConnection.getMetaData(ProxyConnection.java:359)
+2020-05-23 21:24:00,123 DEBUG j.audit [http-nio-8081-exec-12] 1. PreparedStatement.isClosed() returned false  com.zaxxer.hikari.pool.HikariProxyPreparedStatement.isClosed(HikariProxyPreparedStatement.java:-1)
+2020-05-23 21:24:00,123 DEBUG j.audit [http-nio-8081-exec-12] 1. PreparedStatement.close() returned   com.zaxxer.hikari.pool.ProxyStatement.close(ProxyStatement.java:76)
+2020-05-23 21:24:00,124 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-12] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c0a7d18]
+2020-05-23 21:24:00,124 DEBUG j.audit [http-nio-8081-exec-12] 1. Connection.clearWarnings() returned   com.zaxxer.hikari.pool.ProxyConnection.close(ProxyConnection.java:246)
+2020-05-23 21:24:00,507 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-13] Creating a new SqlSession
+2020-05-23 21:24:00,507 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-13] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@254d2413] was not registered for synchronization because synchronization is not active
+2020-05-23 21:24:00,507 DEBUG j.audit [http-nio-8081-exec-13] 1. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.HikariProxyConnection.getAutoCommit(HikariProxyConnection.java:-1)
+2020-05-23 21:24:00,507 DEBUG o.m.s.t.SpringManagedTransaction [http-nio-8081-exec-13] JDBC Connection [HikariProxyConnection@730517194 wrapping net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@b5d9f3c] will not be managed by Spring
+2020-05-23 21:24:00,507 DEBUG E.foodlist [http-nio-8081-exec-13] ==>  Preparing: select food_id, food_title, food_price from food 
+2020-05-23 21:24:00,507 DEBUG j.audit [http-nio-8081-exec-13] 1. PreparedStatement.new PreparedStatement returned   com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:316)
+2020-05-23 21:24:00,508 DEBUG j.audit [http-nio-8081-exec-13] 1. Connection.prepareStatement(select food_id, food_title, food_price from food) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@2fb54f63  com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:316)
+2020-05-23 21:24:00,508 DEBUG E.foodlist [http-nio-8081-exec-13] ==> Parameters: 
+2020-05-23 21:24:00,508 DEBUG j.sqlonly [http-nio-8081-exec-13]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. select food_id, food_title, food_price from food 
+
+2020-05-23 21:24:00,509 DEBUG j.audit [http-nio-8081-exec-13] 1. PreparedStatement.execute() returned true  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+2020-05-23 21:24:00,509 DEBUG j.resultset [http-nio-8081-exec-13] 1. ResultSet.new ResultSet returned   com.zaxxer.hikari.pool.ProxyStatement.getResultSet(ProxyStatement.java:214)
+2020-05-23 21:24:00,509 DEBUG j.audit [http-nio-8081-exec-13] 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@6ab7c4f1  com.zaxxer.hikari.pool.ProxyStatement.getResultSet(ProxyStatement.java:214)
+2020-05-23 21:24:00,509 DEBUG j.resultset [http-nio-8081-exec-13] 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@26161808  com.zaxxer.hikari.pool.HikariProxyResultSet.getMetaData(HikariProxyResultSet.java:-1)
+2020-05-23 21:24:00,509 DEBUG j.resultset [http-nio-8081-exec-13] 1. ResultSet.getType() returned 1003  com.zaxxer.hikari.pool.HikariProxyResultSet.getType(HikariProxyResultSet.java:-1)
+2020-05-23 21:24:00,510 INFO j.resultsettable [http-nio-8081-exec-13] 
+|--------|-----------|-----------|
+|food_id |food_title |food_price |
+|--------|-----------|-----------|
+|--------|-----------|-----------|
+
+2020-05-23 21:24:00,510 DEBUG j.resultset [http-nio-8081-exec-13] 1. ResultSet.next() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.next(HikariProxyResultSet.java:-1)
+2020-05-23 21:24:00,510 DEBUG E.foodlist [http-nio-8081-exec-13] <==      Total: 0
+2020-05-23 21:24:00,510 DEBUG j.resultset [http-nio-8081-exec-13] 1. ResultSet.close() returned void  com.zaxxer.hikari.pool.HikariProxyResultSet.close(HikariProxyResultSet.java:-1)
+2020-05-23 21:24:00,510 DEBUG j.audit [http-nio-8081-exec-13] 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@221ddc98  com.zaxxer.hikari.pool.ProxyConnection.getMetaData(ProxyConnection.java:359)
+2020-05-23 21:24:00,510 DEBUG j.audit [http-nio-8081-exec-13] 1. PreparedStatement.isClosed() returned false  com.zaxxer.hikari.pool.HikariProxyPreparedStatement.isClosed(HikariProxyPreparedStatement.java:-1)
+2020-05-23 21:24:00,510 DEBUG j.audit [http-nio-8081-exec-13] 1. PreparedStatement.close() returned   com.zaxxer.hikari.pool.ProxyStatement.close(ProxyStatement.java:76)
+2020-05-23 21:24:00,511 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-13] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@254d2413]
+2020-05-23 21:24:00,511 DEBUG j.audit [http-nio-8081-exec-13] 1. Connection.clearWarnings() returned   com.zaxxer.hikari.pool.ProxyConnection.close(ProxyConnection.java:246)
+2020-05-23 21:24:01,193 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-14] Creating a new SqlSession
+2020-05-23 21:24:01,193 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-14] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@53045538] was not registered for synchronization because synchronization is not active
+2020-05-23 21:24:01,194 DEBUG j.audit [http-nio-8081-exec-14] 1. Connection.isValid(5) returned true  com.zaxxer.hikari.pool.PoolBase.isConnectionAlive(PoolBase.java:157)
+2020-05-23 21:24:01,194 DEBUG j.audit [http-nio-8081-exec-14] 1. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.HikariProxyConnection.getAutoCommit(HikariProxyConnection.java:-1)
+2020-05-23 21:24:01,195 DEBUG o.m.s.t.SpringManagedTransaction [http-nio-8081-exec-14] JDBC Connection [HikariProxyConnection@1573105960 wrapping net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@b5d9f3c] will not be managed by Spring
+2020-05-23 21:24:01,195 DEBUG E.foodlist [http-nio-8081-exec-14] ==>  Preparing: select food_id, food_title, food_price from food 
+2020-05-23 21:24:01,195 DEBUG j.audit [http-nio-8081-exec-14] 1. PreparedStatement.new PreparedStatement returned   com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:316)
+2020-05-23 21:24:01,195 DEBUG j.audit [http-nio-8081-exec-14] 1. Connection.prepareStatement(select food_id, food_title, food_price from food) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@59fc3e48  com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:316)
+2020-05-23 21:24:01,196 DEBUG E.foodlist [http-nio-8081-exec-14] ==> Parameters: 
+2020-05-23 21:24:01,196 DEBUG j.sqlonly [http-nio-8081-exec-14]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. select food_id, food_title, food_price from food 
+
+2020-05-23 21:24:01,197 DEBUG j.audit [http-nio-8081-exec-14] 1. PreparedStatement.execute() returned true  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+2020-05-23 21:24:01,202 DEBUG j.resultset [http-nio-8081-exec-14] 1. ResultSet.new ResultSet returned   com.zaxxer.hikari.pool.ProxyStatement.getResultSet(ProxyStatement.java:214)
+2020-05-23 21:24:01,203 DEBUG j.audit [http-nio-8081-exec-14] 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@1cfebb13  com.zaxxer.hikari.pool.ProxyStatement.getResultSet(ProxyStatement.java:214)
+2020-05-23 21:24:01,203 DEBUG j.resultset [http-nio-8081-exec-14] 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@6da28021  com.zaxxer.hikari.pool.HikariProxyResultSet.getMetaData(HikariProxyResultSet.java:-1)
+2020-05-23 21:24:01,203 DEBUG j.resultset [http-nio-8081-exec-14] 1. ResultSet.getType() returned 1003  com.zaxxer.hikari.pool.HikariProxyResultSet.getType(HikariProxyResultSet.java:-1)
+2020-05-23 21:24:01,203 INFO j.resultsettable [http-nio-8081-exec-14] 
+|--------|-----------|-----------|
+|food_id |food_title |food_price |
+|--------|-----------|-----------|
+|--------|-----------|-----------|
+
+2020-05-23 21:24:01,203 DEBUG j.resultset [http-nio-8081-exec-14] 1. ResultSet.next() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.next(HikariProxyResultSet.java:-1)
+2020-05-23 21:24:01,204 DEBUG E.foodlist [http-nio-8081-exec-14] <==      Total: 0
+2020-05-23 21:24:01,204 DEBUG j.resultset [http-nio-8081-exec-14] 1. ResultSet.close() returned void  com.zaxxer.hikari.pool.HikariProxyResultSet.close(HikariProxyResultSet.java:-1)
+2020-05-23 21:24:01,204 DEBUG j.audit [http-nio-8081-exec-14] 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@221ddc98  com.zaxxer.hikari.pool.ProxyConnection.getMetaData(ProxyConnection.java:359)
+2020-05-23 21:24:01,204 DEBUG j.audit [http-nio-8081-exec-14] 1. PreparedStatement.isClosed() returned false  com.zaxxer.hikari.pool.HikariProxyPreparedStatement.isClosed(HikariProxyPreparedStatement.java:-1)
+2020-05-23 21:24:01,204 DEBUG j.audit [http-nio-8081-exec-14] 1. PreparedStatement.close() returned   com.zaxxer.hikari.pool.ProxyStatement.close(ProxyStatement.java:76)
+2020-05-23 21:24:01,204 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-14] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@53045538]
+2020-05-23 21:24:01,204 DEBUG j.audit [http-nio-8081-exec-14] 1. Connection.clearWarnings() returned   com.zaxxer.hikari.pool.ProxyConnection.close(ProxyConnection.java:246)
+2020-05-23 21:24:01,213 DEBUG o.m.s.SqlSessionUtils [ContainerBackgroundProcessor[StandardEngine[Catalina]]] Creating a new SqlSession
+2020-05-23 21:24:01,213 DEBUG o.m.s.SqlSessionUtils [ContainerBackgroundProcessor[StandardEngine[Catalina]]] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6af5ec6c] was not registered for synchronization because synchronization is not active
+2020-05-23 21:24:01,213 DEBUG o.m.s.SqlSessionUtils [ContainerBackgroundProcessor[StandardEngine[Catalina]]] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6af5ec6c]
+2020-05-23 21:24:01,216 INFO j.connection [HikariPool-2 connection closer] 1. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:24:01,216 DEBUG j.connection [HikariPool-2 connection closer] open connections:  2 3 4 5 6 7 8 9 10 (9)
+2020-05-23 21:24:01,216 DEBUG j.audit [HikariPool-2 connection closer] 1. Connection.close() returned   com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:24:01,217 INFO j.connection [HikariPool-2 connection closer] 2. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:24:01,217 DEBUG j.connection [HikariPool-2 connection closer] open connections:  3 4 5 6 7 8 9 10 (8)
+2020-05-23 21:24:01,218 DEBUG j.audit [HikariPool-2 connection closer] 2. Connection.close() returned   com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:24:01,218 INFO j.connection [HikariPool-2 connection closer] 3. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:24:01,219 DEBUG j.connection [HikariPool-2 connection closer] open connections:  4 5 6 7 8 9 10 (7)
+2020-05-23 21:24:01,219 DEBUG j.audit [HikariPool-2 connection closer] 3. Connection.close() returned   com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:24:01,220 INFO j.connection [HikariPool-2 connection closer] 4. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:24:01,220 DEBUG j.connection [HikariPool-2 connection closer] open connections:  5 6 7 8 9 10 (6)
+2020-05-23 21:24:01,220 DEBUG j.audit [HikariPool-2 connection closer] 4. Connection.close() returned   com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:24:01,221 INFO j.connection [HikariPool-2 connection closer] 5. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:24:01,221 DEBUG j.connection [HikariPool-2 connection closer] open connections:  6 7 8 9 10 (5)
+2020-05-23 21:24:01,222 DEBUG j.audit [HikariPool-2 connection closer] 5. Connection.close() returned   com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:24:01,223 INFO j.connection [HikariPool-2 connection closer] 6. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:24:01,223 DEBUG j.connection [HikariPool-2 connection closer] open connections:  7 8 9 10 (4)
+2020-05-23 21:24:01,223 DEBUG j.audit [HikariPool-2 connection closer] 6. Connection.close() returned   com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:24:01,224 INFO j.connection [HikariPool-2 connection closer] 7. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:24:01,224 DEBUG j.connection [HikariPool-2 connection closer] open connections:  8 9 10 (3)
+2020-05-23 21:24:01,224 DEBUG j.audit [HikariPool-2 connection closer] 7. Connection.close() returned   com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:24:01,225 INFO j.connection [HikariPool-2 connection closer] 8. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:24:01,226 DEBUG j.connection [HikariPool-2 connection closer] open connections:  9 10 (2)
+2020-05-23 21:24:01,226 DEBUG j.audit [HikariPool-2 connection closer] 8. Connection.close() returned   com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:24:01,227 INFO j.connection [HikariPool-2 connection closer] 9. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:24:01,227 DEBUG j.connection [HikariPool-2 connection closer] open connections:  10 (1)
+2020-05-23 21:24:01,227 DEBUG j.audit [HikariPool-2 connection closer] 9. Connection.close() returned   com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:24:01,228 INFO j.connection [HikariPool-2 connection closer] 10. Connection closed  com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:24:01,228 DEBUG j.connection [HikariPool-2 connection closer] open connections:  none
+2020-05-23 21:24:01,228 DEBUG j.audit [HikariPool-2 connection closer] 10. Connection.close() returned   com.zaxxer.hikari.pool.PoolBase.quietlyCloseConnection(PoolBase.java:139)
+2020-05-23 21:24:09,288 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] log4jdbc-logj2 properties initialization...
+2020-05-23 21:24:09,289 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] Using logger: net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
+2020-05-23 21:24:09,289 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.debug.stack.prefix is not defined
+2020-05-23 21:24:09,289 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.sqltiming.warn.threshold is not defined
+2020-05-23 21:24:09,289 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.sqltiming.error.threshold is not defined
+2020-05-23 21:24:09,289 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+2020-05-23 21:24:09,290 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+2020-05-23 21:24:09,290 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+2020-05-23 21:24:09,290 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.statement.warn is not defined (using default value false)
+2020-05-23 21:24:09,290 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.dump.sql.select is not defined (using default value true)
+2020-05-23 21:24:09,290 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.dump.sql.insert is not defined (using default value true)
+2020-05-23 21:24:09,290 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.dump.sql.update is not defined (using default value true)
+2020-05-23 21:24:09,290 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.dump.sql.delete is not defined (using default value true)
+2020-05-23 21:24:09,290 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.dump.sql.create is not defined (using default value true)
+2020-05-23 21:24:09,290 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+2020-05-23 21:24:09,290 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+2020-05-23 21:24:09,290 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.drivers is not defined
+2020-05-23 21:24:09,290 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.trim.sql is not defined (using default value true)
+2020-05-23 21:24:09,290 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+2020-05-23 21:24:09,290 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+2020-05-23 21:24:09,290 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] log4jdbc-logj2 properties initialization done.
+2020-05-23 21:24:09,291 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DriverSpy intialization...
+2020-05-23 21:24:09,345 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]]   FOUND DRIVER oracle.jdbc.OracleDriver
+2020-05-23 21:24:09,345 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]]   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+2020-05-23 21:24:09,359 DEBUG l.debug [ContainerBackgroundProcessor[StandardEngine[Catalina]]] DriverSpy intialization done.
+2020-05-23 21:24:09,391 DEBUG o.a.i.l.LogFactory [ContainerBackgroundProcessor[StandardEngine[Catalina]]] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-23 21:24:09,567 DEBUG o.m.s.SqlSessionFactoryBean [ContainerBackgroundProcessor[StandardEngine[Catalina]]] Parsed configuration file: 'class path resource [MybatisConfig.xml]'
+2020-05-23 21:24:09,680 DEBUG o.m.s.SqlSessionFactoryBean [ContainerBackgroundProcessor[StandardEngine[Catalina]]] Parsed mapper file: 'file [C:\Project\EZEN-PROJECT\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ctrl\WEB-INF\classes\mappers\ezenbucksMapper.xml]'
+2020-05-23 21:24:12,066 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-13] Creating a new SqlSession
+2020-05-23 21:24:12,079 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-13] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43f04635] was not registered for synchronization because synchronization is not active
+2020-05-23 21:24:12,082 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-13] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43f04635]
+2020-05-23 21:24:12,274 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-3] Creating a new SqlSession
+2020-05-23 21:24:12,275 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-3] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9e856a6] was not registered for synchronization because synchronization is not active
+2020-05-23 21:24:12,275 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-3] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9e856a6]
+2020-05-23 21:25:12,867 DEBUG l.debug [localhost-startStop-1] log4jdbc-logj2 properties initialization...
+2020-05-23 21:25:12,869 DEBUG l.debug [localhost-startStop-1] Using logger: net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
+2020-05-23 21:25:12,869 DEBUG l.debug [localhost-startStop-1] x log4jdbc.debug.stack.prefix is not defined
+2020-05-23 21:25:12,869 DEBUG l.debug [localhost-startStop-1] x log4jdbc.sqltiming.warn.threshold is not defined
+2020-05-23 21:25:12,869 DEBUG l.debug [localhost-startStop-1] x log4jdbc.sqltiming.error.threshold is not defined
+2020-05-23 21:25:12,869 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+2020-05-23 21:25:12,869 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+2020-05-23 21:25:12,869 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+2020-05-23 21:25:12,869 DEBUG l.debug [localhost-startStop-1] x log4jdbc.statement.warn is not defined (using default value false)
+2020-05-23 21:25:12,870 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.select is not defined (using default value true)
+2020-05-23 21:25:12,870 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.insert is not defined (using default value true)
+2020-05-23 21:25:12,870 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.update is not defined (using default value true)
+2020-05-23 21:25:12,870 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.delete is not defined (using default value true)
+2020-05-23 21:25:12,870 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.create is not defined (using default value true)
+2020-05-23 21:25:12,870 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+2020-05-23 21:25:12,870 DEBUG l.debug [localhost-startStop-1] x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+2020-05-23 21:25:12,871 DEBUG l.debug [localhost-startStop-1] x log4jdbc.drivers is not defined
+2020-05-23 21:25:12,871 DEBUG l.debug [localhost-startStop-1] x log4jdbc.trim.sql is not defined (using default value true)
+2020-05-23 21:25:12,871 DEBUG l.debug [localhost-startStop-1] x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+2020-05-23 21:25:12,871 DEBUG l.debug [localhost-startStop-1] x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+2020-05-23 21:25:12,871 DEBUG l.debug [localhost-startStop-1] log4jdbc-logj2 properties initialization done.
+2020-05-23 21:25:12,871 DEBUG l.debug [localhost-startStop-1] DriverSpy intialization...
+2020-05-23 21:25:12,928 DEBUG l.debug [localhost-startStop-1]   FOUND DRIVER oracle.jdbc.OracleDriver
+2020-05-23 21:25:12,928 DEBUG l.debug [localhost-startStop-1]   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+2020-05-23 21:25:12,938 DEBUG l.debug [localhost-startStop-1] DriverSpy intialization done.
+2020-05-23 21:25:12,968 DEBUG o.a.i.l.LogFactory [localhost-startStop-1] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-23 21:25:13,155 DEBUG o.m.s.SqlSessionFactoryBean [localhost-startStop-1] Parsed configuration file: 'class path resource [MybatisConfig.xml]'
+2020-05-23 21:25:13,274 DEBUG o.m.s.SqlSessionFactoryBean [localhost-startStop-1] Parsed mapper file: 'file [C:\Project\EZEN-PROJECT\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ctrl\WEB-INF\classes\mappers\ezenbucksMapper.xml]'
+2020-05-23 21:29:23,332 DEBUG l.debug [localhost-startStop-1] log4jdbc-logj2 properties initialization...
+2020-05-23 21:29:23,333 DEBUG l.debug [localhost-startStop-1] Using logger: net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
+2020-05-23 21:29:23,333 DEBUG l.debug [localhost-startStop-1] x log4jdbc.debug.stack.prefix is not defined
+2020-05-23 21:29:23,333 DEBUG l.debug [localhost-startStop-1] x log4jdbc.sqltiming.warn.threshold is not defined
+2020-05-23 21:29:23,334 DEBUG l.debug [localhost-startStop-1] x log4jdbc.sqltiming.error.threshold is not defined
+2020-05-23 21:29:23,334 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.booleanastruefalse is not defined (using default value false)
+2020-05-23 21:29:23,334 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.maxlinelength is not defined (using default of 90)
+2020-05-23 21:29:23,334 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.fulldebugstacktrace is not defined (using default value false)
+2020-05-23 21:29:23,334 DEBUG l.debug [localhost-startStop-1] x log4jdbc.statement.warn is not defined (using default value false)
+2020-05-23 21:29:23,334 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.select is not defined (using default value true)
+2020-05-23 21:29:23,334 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.insert is not defined (using default value true)
+2020-05-23 21:29:23,334 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.update is not defined (using default value true)
+2020-05-23 21:29:23,334 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.delete is not defined (using default value true)
+2020-05-23 21:29:23,334 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.create is not defined (using default value true)
+2020-05-23 21:29:23,335 DEBUG l.debug [localhost-startStop-1] x log4jdbc.dump.sql.addsemicolon is not defined (using default value false)
+2020-05-23 21:29:23,335 DEBUG l.debug [localhost-startStop-1] x log4jdbc.auto.load.popular.drivers is not defined (using default value true)
+2020-05-23 21:29:23,335 DEBUG l.debug [localhost-startStop-1] x log4jdbc.drivers is not defined
+2020-05-23 21:29:23,335 DEBUG l.debug [localhost-startStop-1] x log4jdbc.trim.sql is not defined (using default value true)
+2020-05-23 21:29:23,335 DEBUG l.debug [localhost-startStop-1] x log4jdbc.trim.sql.extrablanklines is not defined (using default value true)
+2020-05-23 21:29:23,335 DEBUG l.debug [localhost-startStop-1] x log4jdbc.suppress.generated.keys.exception is not defined (using default value false)
+2020-05-23 21:29:23,335 DEBUG l.debug [localhost-startStop-1] log4jdbc-logj2 properties initialization done.
+2020-05-23 21:29:23,335 DEBUG l.debug [localhost-startStop-1] DriverSpy intialization...
+2020-05-23 21:29:23,396 DEBUG l.debug [localhost-startStop-1]   FOUND DRIVER oracle.jdbc.OracleDriver
+2020-05-23 21:29:23,396 DEBUG l.debug [localhost-startStop-1]   FOUND DRIVER oracle.jdbc.driver.OracleDriver
+2020-05-23 21:29:23,405 DEBUG l.debug [localhost-startStop-1] DriverSpy intialization done.
+2020-05-23 21:29:23,437 DEBUG o.a.i.l.LogFactory [localhost-startStop-1] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-05-23 21:29:23,623 DEBUG o.m.s.SqlSessionFactoryBean [localhost-startStop-1] Parsed configuration file: 'class path resource [MybatisConfig.xml]'
+2020-05-23 21:29:23,745 DEBUG o.m.s.SqlSessionFactoryBean [localhost-startStop-1] Parsed mapper file: 'file [C:\Project\EZEN-PROJECT\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ctrl\WEB-INF\classes\mappers\ezenbucksMapper.xml]'
+2020-05-23 21:29:29,016 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-3] Creating a new SqlSession
+2020-05-23 21:29:29,031 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-3] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76cff021] was not registered for synchronization because synchronization is not active
+2020-05-23 21:29:29,367 INFO j.connection [http-nio-8081-exec-3] 1. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:29:29,367 DEBUG j.connection [http-nio-8081-exec-3] open connections:  1 (1)
+2020-05-23 21:29:29,367 DEBUG j.audit [http-nio-8081-exec-3] 1. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:29:29,368 DEBUG j.audit [http-nio-8081-exec-3] 1. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:29:29,368 DEBUG j.audit [http-nio-8081-exec-3] 1. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:29:29,370 DEBUG j.audit [http-nio-8081-exec-3] 1. Connection.isValid(1) returned true  com.zaxxer.hikari.pool.PoolBase.checkValidationSupport(PoolBase.java:454)
+2020-05-23 21:29:29,370 DEBUG j.audit [http-nio-8081-exec-3] 1. Connection.getTransactionIsolation() returned 2  com.zaxxer.hikari.pool.PoolBase.checkDefaultIsolation(PoolBase.java:475)
+2020-05-23 21:29:29,384 DEBUG j.audit [http-nio-8081-exec-3] 1. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.HikariProxyConnection.getAutoCommit(HikariProxyConnection.java:-1)
+2020-05-23 21:29:29,385 DEBUG o.m.s.t.SpringManagedTransaction [http-nio-8081-exec-3] JDBC Connection [HikariProxyConnection@2085430924 wrapping net.sf.log4jdbc.sql.jdbcapi.ConnectionSpy@31d11b89] will not be managed by Spring
+2020-05-23 21:29:29,390 DEBUG E.coffeelist [http-nio-8081-exec-3] ==>  Preparing: select coffee_id, coffee_title, coffee_price, coffee_temp, coffee_size from coffee 
+2020-05-23 21:29:29,496 INFO j.connection [HikariPool-1 connection adder] 2. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:29:29,496 DEBUG j.connection [HikariPool-1 connection adder] open connections:  1 2 (2)
+2020-05-23 21:29:29,496 DEBUG j.audit [HikariPool-1 connection adder] 2. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:29:29,496 DEBUG j.audit [HikariPool-1 connection adder] 2. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:29:29,496 DEBUG j.audit [HikariPool-1 connection adder] 2. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:29:29,516 INFO j.connection [HikariPool-1 connection adder] 3. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:29:29,516 DEBUG j.connection [HikariPool-1 connection adder] open connections:  1 2 3 (3)
+2020-05-23 21:29:29,517 DEBUG j.audit [HikariPool-1 connection adder] 3. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:29:29,517 DEBUG j.audit [HikariPool-1 connection adder] 3. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:29:29,517 DEBUG j.audit [HikariPool-1 connection adder] 3. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:29:29,536 INFO j.connection [HikariPool-1 connection adder] 4. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:29:29,536 DEBUG j.connection [HikariPool-1 connection adder] open connections:  1 2 3 4 (4)
+2020-05-23 21:29:29,536 DEBUG j.audit [HikariPool-1 connection adder] 4. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:29:29,536 DEBUG j.audit [HikariPool-1 connection adder] 4. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:29:29,536 DEBUG j.audit [HikariPool-1 connection adder] 4. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:29:29,557 INFO j.connection [HikariPool-1 connection adder] 5. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:29:29,557 DEBUG j.connection [HikariPool-1 connection adder] open connections:  1 2 3 4 5 (5)
+2020-05-23 21:29:29,557 DEBUG j.audit [HikariPool-1 connection adder] 5. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:29:29,557 DEBUG j.audit [HikariPool-1 connection adder] 5. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:29:29,557 DEBUG j.audit [HikariPool-1 connection adder] 5. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:29:29,578 INFO j.connection [HikariPool-1 connection adder] 6. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:29:29,578 DEBUG j.connection [HikariPool-1 connection adder] open connections:  1 2 3 4 5 6 (6)
+2020-05-23 21:29:29,578 DEBUG j.audit [HikariPool-1 connection adder] 6. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:29:29,578 DEBUG j.audit [HikariPool-1 connection adder] 6. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:29:29,578 DEBUG j.audit [HikariPool-1 connection adder] 6. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:29:29,597 INFO j.connection [HikariPool-1 connection adder] 7. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:29:29,597 DEBUG j.connection [HikariPool-1 connection adder] open connections:  1 2 3 4 5 6 7 (7)
+2020-05-23 21:29:29,597 DEBUG j.audit [HikariPool-1 connection adder] 7. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:29:29,597 DEBUG j.audit [HikariPool-1 connection adder] 7. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:29:29,597 DEBUG j.audit [HikariPool-1 connection adder] 7. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:29:29,610 DEBUG j.audit [http-nio-8081-exec-3] 1. PreparedStatement.new PreparedStatement returned   com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:316)
+2020-05-23 21:29:29,611 DEBUG j.audit [http-nio-8081-exec-3] 1. Connection.prepareStatement(select coffee_id, coffee_title, coffee_price, coffee_temp, coffee_size from coffee) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@2782ebef  com.zaxxer.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:316)
+2020-05-23 21:29:29,618 INFO j.connection [HikariPool-1 connection adder] 8. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:29:29,619 DEBUG j.connection [HikariPool-1 connection adder] open connections:  1 2 3 4 5 6 7 8 (8)
+2020-05-23 21:29:29,619 DEBUG j.audit [HikariPool-1 connection adder] 8. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:29:29,619 DEBUG j.audit [HikariPool-1 connection adder] 8. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:29:29,619 DEBUG j.audit [HikariPool-1 connection adder] 8. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:29:29,626 DEBUG E.coffeelist [http-nio-8081-exec-3] ==> Parameters: 
+2020-05-23 21:29:29,626 DEBUG j.sqlonly [http-nio-8081-exec-3]  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+1. select coffee_id, coffee_title, coffee_price, coffee_temp, coffee_size from coffee 
+
+2020-05-23 21:29:29,638 INFO j.connection [HikariPool-1 connection adder] 9. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:29:29,638 DEBUG j.connection [HikariPool-1 connection adder] open connections:  1 2 3 4 5 6 7 8 9 (9)
+2020-05-23 21:29:29,638 DEBUG j.audit [HikariPool-1 connection adder] 9. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:29:29,638 DEBUG j.audit [HikariPool-1 connection adder] 9. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:29:29,638 DEBUG j.audit [HikariPool-1 connection adder] 9. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:29:29,656 DEBUG j.audit [http-nio-8081-exec-3] 1. PreparedStatement.execute() returned true  com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+2020-05-23 21:29:29,657 INFO j.connection [HikariPool-1 connection adder] 10. Connection opened  com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:29:29,657 DEBUG j.connection [HikariPool-1 connection adder] open connections:  1 2 3 4 5 6 7 8 9 10 (10)
+2020-05-23 21:29:29,657 DEBUG j.audit [HikariPool-1 connection adder] 10. Connection.new Connection returned   com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+2020-05-23 21:29:29,657 DEBUG j.audit [HikariPool-1 connection adder] 10. Connection.isReadOnly() returned false  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:398)
+2020-05-23 21:29:29,657 DEBUG j.audit [HikariPool-1 connection adder] 10. Connection.getAutoCommit() returned true  com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+2020-05-23 21:29:29,667 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.new ResultSet returned   com.zaxxer.hikari.pool.ProxyStatement.getResultSet(ProxyStatement.java:214)
+2020-05-23 21:29:29,667 DEBUG j.audit [http-nio-8081-exec-3] 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@271752d2  com.zaxxer.hikari.pool.ProxyStatement.getResultSet(ProxyStatement.java:214)
+2020-05-23 21:29:29,682 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@336f6296  com.zaxxer.hikari.pool.HikariProxyResultSet.getMetaData(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,685 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getType() returned 1003  com.zaxxer.hikari.pool.HikariProxyResultSet.getType(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,685 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.next() returned true  com.zaxxer.hikari.pool.HikariProxyResultSet.next(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,685 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@23ff9500  com.zaxxer.hikari.pool.HikariProxyResultSet.getMetaData(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,685 TRACE E.coffeelist [http-nio-8081-exec-3] <==    Columns: COFFEE_ID, COFFEE_TITLE, COFFEE_PRICE, COFFEE_TEMP, COFFEE_SIZE
+2020-05-23 21:29:29,692 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(1) returned 1  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,692 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(2) returned 아이스아메리카노  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,692 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(3) returned 1500  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,693 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(4) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,693 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(5) returned Tall  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,693 TRACE E.coffeelist [http-nio-8081-exec-3] <==        Row: 1, 아이스아메리카노, 1500, HOT, Tall
+2020-05-23 21:29:29,707 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getInt(COFFEE_ID) returned 1  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,708 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,708 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(COFFEE_TITLE) returned 아이스아메리카노  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,708 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,708 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getInt(COFFEE_PRICE) returned 1500  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,709 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,709 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(COFFEE_TEMP) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,709 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,709 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(COFFEE_SIZE) returned Tall  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,710 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,710 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.next() returned true  com.zaxxer.hikari.pool.HikariProxyResultSet.next(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,710 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@748911c9  com.zaxxer.hikari.pool.HikariProxyResultSet.getMetaData(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,710 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(1) returned 2  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,711 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(2) returned 카푸치노  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,711 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(3) returned 3000  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,711 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(4) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,711 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(5) returned Grande  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,711 TRACE E.coffeelist [http-nio-8081-exec-3] <==        Row: 2, 카푸치노, 3000, HOT, Grande
+2020-05-23 21:29:29,712 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getInt(COFFEE_ID) returned 2  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,712 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,712 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(COFFEE_TITLE) returned 카푸치노  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,712 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,713 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getInt(COFFEE_PRICE) returned 3000  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,713 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,713 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(COFFEE_TEMP) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,713 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,713 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(COFFEE_SIZE) returned Grande  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,714 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,714 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.next() returned true  com.zaxxer.hikari.pool.HikariProxyResultSet.next(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,714 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@7dc5a709  com.zaxxer.hikari.pool.HikariProxyResultSet.getMetaData(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,714 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(1) returned 3  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,714 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(2) returned 캬라멜마끼아또  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,714 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(3) returned 2000  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,715 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(4) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,715 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(5) returned Venti  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,715 TRACE E.coffeelist [http-nio-8081-exec-3] <==        Row: 3, 캬라멜마끼아또, 2000, HOT, Venti
+2020-05-23 21:29:29,715 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getInt(COFFEE_ID) returned 3  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,715 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,715 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(COFFEE_TITLE) returned 캬라멜마끼아또  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,716 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,716 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getInt(COFFEE_PRICE) returned 2000  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,716 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,716 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(COFFEE_TEMP) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,716 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,717 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(COFFEE_SIZE) returned Venti  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,717 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,717 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.next() returned true  com.zaxxer.hikari.pool.HikariProxyResultSet.next(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,717 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@3495814f  com.zaxxer.hikari.pool.HikariProxyResultSet.getMetaData(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,717 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(1) returned 4  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,717 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(2) returned 청포도에이드  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,718 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(3) returned 1000  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,718 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(4) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,718 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(5) returned Tall  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,718 TRACE E.coffeelist [http-nio-8081-exec-3] <==        Row: 4, 청포도에이드, 1000, HOT, Tall
+2020-05-23 21:29:29,718 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getInt(COFFEE_ID) returned 4  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,719 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,719 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(COFFEE_TITLE) returned 청포도에이드  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,719 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,720 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getInt(COFFEE_PRICE) returned 1000  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,720 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,720 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(COFFEE_TEMP) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,720 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,721 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(COFFEE_SIZE) returned Tall  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,721 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,721 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.next() returned true  com.zaxxer.hikari.pool.HikariProxyResultSet.next(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,721 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@39dbfd77  com.zaxxer.hikari.pool.HikariProxyResultSet.getMetaData(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,721 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(1) returned 5  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,721 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(2) returned 아무거나  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,722 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(3) returned 1500  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,722 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(4) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,722 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(5) returned Tall  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,722 TRACE E.coffeelist [http-nio-8081-exec-3] <==        Row: 5, 아무거나, 1500, HOT, Tall
+2020-05-23 21:29:29,722 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getInt(COFFEE_ID) returned 5  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,722 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,723 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(COFFEE_TITLE) returned 아무거나  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,723 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,723 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getInt(COFFEE_PRICE) returned 1500  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,723 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,723 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(COFFEE_TEMP) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,723 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,724 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(COFFEE_SIZE) returned Tall  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,724 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,724 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.next() returned true  com.zaxxer.hikari.pool.HikariProxyResultSet.next(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,724 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@6976f8aa  com.zaxxer.hikari.pool.HikariProxyResultSet.getMetaData(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,724 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(1) returned 6  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,724 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(2) returned 아이스아메리카노  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,724 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(3) returned 1500  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,725 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(4) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,725 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(5) returned Tall  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,725 TRACE E.coffeelist [http-nio-8081-exec-3] <==        Row: 6, 아이스아메리카노, 1500, HOT, Tall
+2020-05-23 21:29:29,725 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getInt(COFFEE_ID) returned 6  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,725 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,726 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(COFFEE_TITLE) returned 아이스아메리카노  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,726 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,726 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getInt(COFFEE_PRICE) returned 1500  com.zaxxer.hikari.pool.HikariProxyResultSet.getInt(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,726 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,726 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(COFFEE_TEMP) returned HOT  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,726 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,727 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.getString(COFFEE_SIZE) returned Tall  com.zaxxer.hikari.pool.HikariProxyResultSet.getString(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,727 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.wasNull() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.wasNull(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,729 INFO j.resultsettable [http-nio-8081-exec-3] 
+|----------|-------------|-------------|------------|------------|
+|coffee_id |coffee_title |coffee_price |coffee_temp |coffee_size |
+|----------|-------------|-------------|------------|------------|
+|1         |아이스아메리카노     |1500         |HOT         |Tall        |
+|2         |카푸치노         |3000         |HOT         |Grande      |
+|3         |캬라멜마끼아또      |2000         |HOT         |Venti       |
+|4         |청포도에이드       |1000         |HOT         |Tall        |
+|5         |아무거나         |1500         |HOT         |Tall        |
+|6         |아이스아메리카노     |1500         |HOT         |Tall        |
+|----------|-------------|-------------|------------|------------|
+
+2020-05-23 21:29:29,729 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.next() returned false  com.zaxxer.hikari.pool.HikariProxyResultSet.next(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,729 DEBUG E.coffeelist [http-nio-8081-exec-3] <==      Total: 6
+2020-05-23 21:29:29,729 DEBUG j.resultset [http-nio-8081-exec-3] 1. ResultSet.close() returned void  com.zaxxer.hikari.pool.HikariProxyResultSet.close(HikariProxyResultSet.java:-1)
+2020-05-23 21:29:29,730 DEBUG j.audit [http-nio-8081-exec-3] 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@49b06e56  com.zaxxer.hikari.pool.ProxyConnection.getMetaData(ProxyConnection.java:359)
+2020-05-23 21:29:29,735 DEBUG j.audit [http-nio-8081-exec-3] 1. PreparedStatement.isClosed() returned false  com.zaxxer.hikari.pool.HikariProxyPreparedStatement.isClosed(HikariProxyPreparedStatement.java:-1)
+2020-05-23 21:29:29,735 DEBUG j.audit [http-nio-8081-exec-3] 1. PreparedStatement.close() returned   com.zaxxer.hikari.pool.ProxyStatement.close(ProxyStatement.java:76)
+2020-05-23 21:29:29,735 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-3] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@76cff021]
+2020-05-23 21:29:29,739 DEBUG j.audit [http-nio-8081-exec-3] 1. Connection.clearWarnings() returned   com.zaxxer.hikari.pool.ProxyConnection.close(ProxyConnection.java:246)
+2020-05-23 21:29:31,715 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-4] Creating a new SqlSession
+2020-05-23 21:29:31,715 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-4] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@a31d5e8] was not registered for synchronization because synchronization is not active
+2020-05-23 21:29:31,718 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-4] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@a31d5e8]
+2020-05-23 21:29:41,412 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-6] Creating a new SqlSession
+2020-05-23 21:29:41,412 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-6] SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@500cbec1] was not registered for synchronization because synchronization is not active
+2020-05-23 21:29:41,412 DEBUG o.m.s.SqlSessionUtils [http-nio-8081-exec-6] Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@500cbec1]

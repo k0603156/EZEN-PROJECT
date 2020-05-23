@@ -17,7 +17,7 @@
 		<org.quartz-version>2.3.2</org.quartz-version>
 		<fasterxml.jackson-version>2.10.0</fasterxml.jackson-version>
 	</properties>
-	
+
 	<dependencies>
 		<!-- Spring -->
 		<dependency>
@@ -207,6 +207,7 @@
 			<artifactId>quartz-jobs</artifactId>
 			<version>${org.quartz-version}</version>
 		</dependency>
+		
 	</dependencies>
 	<build>
 		<plugins>

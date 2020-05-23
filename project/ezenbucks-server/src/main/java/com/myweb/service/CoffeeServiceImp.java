@@ -1,5 +1,6 @@
 package com.myweb.service;
 
+import java.sql.SQLException;
 import java.util.List;
 
 import javax.inject.Inject;
@@ -19,7 +20,13 @@ public class CoffeeServiceImp implements CoffeeService {
 
 	@Override
 	public List<CoffeeVO> list() {
-		return cdao.selectList();
+		try {
+			return cdao.selectList();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return null;
 	}
 
 }

@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.myweb.domain.CoffeeVO;
 import com.myweb.service.CoffeeService;
+import com.myweb.domain.FoodVO;
+import com.myweb.service.FoodService;
 
 @RestController
 @RequestMapping(value = "/api/*", produces = "application/json")
@@ -19,16 +21,19 @@ public class EzenbucksCtrl {
 	private static final Logger log = LoggerFactory.getLogger(EzenbucksCtrl.class);
 	@Inject
 	private CoffeeService csv;
+	
+	@Inject
+	private FoodService fsv;
 
 	@GetMapping(value = "/coffeelist")
-	public List<CoffeeVO> list() {
+	public List<CoffeeVO> coffeelist() {
 		List<CoffeeVO> coffeelist = csv.list();
 		return coffeelist;
 	}
 	
-//	@GetMapping(value = "/foodlist")
-//	public List<CoffeeVO> list() {
-//		List<CoffeeVO> foodlist = csv.list();
-//		return food;
-//	}
+	@GetMapping(value = "/foodlist")
+	public List<FoodVO> foodlist() {
+		List<FoodVO> foodlist = fsv.list();
+		return foodlist;
+	}
 }
