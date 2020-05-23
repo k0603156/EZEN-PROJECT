@@ -3,14 +3,13 @@
 .project
 .tern-project
 .settings/
-*/target/*
+/target/
+**/target
 .springBeans
 Servers
 *.log
 /.recommenders/
-bin/
 tmp/
 *.bak
 *.swp
-*~.nib
 .recommenders/
