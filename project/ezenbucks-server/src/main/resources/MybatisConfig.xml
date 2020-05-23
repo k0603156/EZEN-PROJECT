@@ -3,8 +3,6 @@
 <configuration>
 	<typeAliases>
 		<!-- <package name="com.myweb.domain" /> -->
-		<typeAlias type="com.myweb.domain.ProductVO" alias="pvo"/>
-		<typeAlias type="com.myweb.domain.Criteria" alias="cri"/>
-		<typeAlias type="com.myweb.domain.CommentVO" alias="cvo"/>
+		<typeAlias type="com.myweb.domain.CoffeeVO" alias="cvo"/>
 	</typeAliases>
 </configuration>

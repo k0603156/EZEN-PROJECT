@@ -29,8 +29,7 @@
 		<beans:constructor-arg value="C:/_spring/workspace/upImg/"></beans:constructor-arg>
 	</beans:bean>	
 	
-	<context:component-scan base-package="com.myweb.ctrl" />
-	<context:component-scan base-package="com.myweb.util" />	
+	<context:component-scan base-package="com.myweb.ctrl" />	
 	
 </beans:beans>
 

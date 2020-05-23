@@ -1,0 +1,7 @@
+/.metadata/
+.classpath
+.project
+.tern-project
+/.settings/
+/target/
+/Servers/

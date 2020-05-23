@@ -23,8 +23,8 @@ public class JDBCTests {
 	public void testConnection() {
 
 		try (Connection con = DriverManager.getConnection(
-				"jdbc:oracle:thin:@localhost:1521:XE", "springdb",
-				"springuser")) {
+				"jdbc:oracle:thin:@localhost:1521:XE", "bbster",
+				"dlwlehd12")) {
 
 			log.info(">>> JDBC TEST >>> "+con);
 		} catch (Exception e) {
