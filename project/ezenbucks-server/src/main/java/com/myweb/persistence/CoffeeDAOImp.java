@@ -16,14 +16,14 @@ import com.myweb.domain.CoffeeVO;
 @Repository
 public class CoffeeDAOImp implements CoffeeDAO {
 	private static final Logger log = LoggerFactory.getLogger(CoffeeDAOImp.class);
-	private static String namespace = "EzenbucksMapper.";
+	private static String namespace = "EzenbucksMapper";
 
 	@Inject
 	private SqlSession sql;
 
 	@Override
 	public List<CoffeeVO> selectList() throws SQLException {	
-		return sql.selectList(namespace + "coffeelist");
+		return sql.selectList(namespace + ".coffeelist");
 	}
 
 }
