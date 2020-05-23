@@ -13,7 +13,7 @@ public class JDBCTests {
 	private static Logger log = LoggerFactory.getLogger(JDBCTests.class);
 	static {
 		try {
-			Class.forName("oracle.jdbc.driver.OracleDriver");
+			Class.forName("mysql.jdbc.driver.MysqlDriver");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -23,8 +23,8 @@ public class JDBCTests {
 	public void testConnection() {
 
 		try (Connection con = DriverManager.getConnection(
-				"jdbc:oracle:thin:@localhost:1521:XE", "bbster",
-				"dlwlehd12")) {
+				"jdbc:log4jdbc:mysql://localhost:3306/ezenbucks", "ezen",
+				"asdf1234")) {
 
 			log.info(">>> JDBC TEST >>> "+con);
 		} catch (Exception e) {

@@ -14,14 +14,14 @@ import com.myweb.domain.FoodVO;
 @Repository
 public class FoodDAOImp implements FoodDAO {
 	private static final Logger log = LoggerFactory.getLogger(FoodDAOImp.class);
-	private static String namespace = "EzenbucksMapper.";
+	private static String namespace = "EzenbucksMapper";
 
 	@Inject
 	private SqlSession sql;
 
 	@Override
 	public List<FoodVO> selectList() {
-		return sql.selectList(namespace + "foodlist");
+		return sql.selectList(namespace + ".foodlist");
 	}
 
 }
