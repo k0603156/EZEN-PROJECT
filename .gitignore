@@ -5,6 +5,7 @@
 */.settings/*
 */target/*
 */Servers/*
+*.log
 */.recommenders/
 /.metadata/
 /.recommenders/
