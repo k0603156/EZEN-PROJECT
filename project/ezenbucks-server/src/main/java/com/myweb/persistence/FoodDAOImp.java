@@ -21,7 +21,7 @@ public class FoodDAOImp implements FoodDAO {
 
 	@Override
 	public List<FoodVO> selectList() {
-		return sql.selectList(namespace + ".foodlist");
+		return sql.selectList(namespace + "foodlist");
 	}
 
 }

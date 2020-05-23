@@ -18,9 +18,9 @@
 		<property name="driverClassName"
 			value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy"></property>
 		<property name="jdbcUrl"
-			value="jdbc:log4jdbc:oracle:thin:@localhost:1521:XE"></property>
-		<property name="username" value="bbster"></property>
-		<property name="password" value="dlwlehd12"></property>
+			value="jdbc:log4jdbc:mysql://localhost:3306/ezenbucks?useUnicode=yes&amp;characterEncoding=UTF-8&amp;autoReconnect=true"></property>
+		<property name="username" value="ezen"></property>
+		<property name="password" value="asdf1234"></property>
 	</bean>
 	<bean id="sqlSessionFactory"
 		class="org.mybatis.spring.SqlSessionFactoryBean">

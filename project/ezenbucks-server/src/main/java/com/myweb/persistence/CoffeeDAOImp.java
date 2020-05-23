@@ -23,7 +23,7 @@ public class CoffeeDAOImp implements CoffeeDAO {
 
 	@Override
 	public List<CoffeeVO> selectList() throws SQLException {	
-		return sql.selectList(namespace + ".coffeelist");
+		return sql.selectList(namespace + "coffeelist");
 		
 	
 	}
