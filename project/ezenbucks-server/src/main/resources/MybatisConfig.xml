@@ -3,9 +3,8 @@
 <configuration>
 	<typeAliases>
 		<!-- <package name="com.myweb.domain" /> -->
-		<typeAlias type="com.myweb.domain.ProductVO" alias="productvo"/>
+		<typeAlias type="com.myweb.domain.ItemVO" alias="itemvo"/>
 		<typeAlias type="com.myweb.domain.OrderVO" alias="ordervo"/>
 		<typeAlias type="com.myweb.domain.ShopVO" alias="shopvo"/>
-		<typeAlias type="com.myweb.domain.CartVO" alias="cartvo"/>
 	</typeAliases>
 </configuration>

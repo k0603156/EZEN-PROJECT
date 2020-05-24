@@ -12,10 +12,11 @@ import lombok.Setter;
 @NoArgsConstructor
 public class OrderVO {
 	private int order_id;
-	private int cart_id;
+	private int item_id;
+	private int item_option_id;
 	private int shop_id;
-	private Date order_date;
-	private int order_total;
+	private int order_count;
+	private Date order_datetime;
+	private int order_total_price;
 	private char order_status;
-	
 }

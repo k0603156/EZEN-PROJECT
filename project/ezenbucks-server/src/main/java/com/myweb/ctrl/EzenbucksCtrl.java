@@ -8,12 +8,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.myweb.domain.ProductVO;
-import com.myweb.service.ProductService;
+import com.myweb.domain.ItemVO;
+import com.myweb.service.ItemService;
 import com.myweb.domain.OrderVO;
 import com.myweb.service.OrderService;
-import com.myweb.domain.CartVO;
-import com.myweb.service.CartService;
 import com.myweb.domain.ShopVO;
 import com.myweb.service.ShopService;
 
@@ -22,24 +20,16 @@ import com.myweb.service.ShopService;
 public class EzenbucksCtrl {
 	private static final Logger log = LoggerFactory.getLogger(EzenbucksCtrl.class);
 	@Inject
-	private ProductService productsv;
+	private ItemService itemsv;
 	@Inject
 	private OrderService ordersv;
 	@Inject
-	private CartService cartsv;
-	@Inject
 	private ShopService shopsv;
 
-	@GetMapping(value = "/product/list")
-	public List<ProductVO> productlist() {
-		List<ProductVO> productlist = productsv.list();
-		return productlist;
-	}
-	
-	@GetMapping(value="/cart/list")
-	public List<CartVO> cartlist(){
-		List<CartVO> cartlist = cartsv.list();
-		return cartlist;
+	@GetMapping(value = "/item/list")
+	public List<ItemVO> itemlist() {
+		List<ItemVO> itemlist = itemsv.list();
+		return itemlist;
 	}
 	
 	@GetMapping(value="/shop/list")

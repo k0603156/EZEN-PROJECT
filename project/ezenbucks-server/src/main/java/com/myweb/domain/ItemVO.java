@@ -8,9 +8,9 @@ import lombok.Setter;
 @Getter @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class ProductVO {
-	private int product_id;
-	private String product_title;
-	private int product_price;
-	private String product_species;
+public class ItemVO {
+	private int item_id;
+	private String item_name;
+	private int item_price;
+	private String item_species;
 }
