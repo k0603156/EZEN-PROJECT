@@ -20,3 +20,22 @@ export default {
   },
   isSmallDevice: width < 375,
 };
+
+export const Size = (size) => {
+  switch (size) {
+    case "xxs":
+      return "10px";
+    case "xs":
+      return "14px";
+    case "sm":
+      return "16px";
+    case "md":
+      return "21px";
+    case "lg":
+      return "24px";
+    case "xl":
+      return "26px";
+    case "xxl":
+      return "28px";
+  }
+};

@@ -1,14 +1,21 @@
 import * as React from "react";
 import styled from "styled-components";
+import { View } from "react-native";
+
+import { LinearGradient } from "expo-linear-gradient";
 import Colors from "../constants/Colors";
 import Layout from "../constants/Layout";
-import Greeting from "../components/Greeting";
-import { View } from "react-native";
-import { LinearGradient } from "expo-linear-gradient";
-import ProductCarousel from "../components/ProductCarousel";
-import BottomSheet from "../components/BottomSheet";
-import MenuDetailForm from "../components/MenuDetailForm";
-import Button from "../components/Button";
+
+import Button from "../components/atoms/Button";
+import BottomSheet from "../components/molcules/BottomSheet";
+import BottomSheetFormBody, {
+  BottomSheetFormHeader,
+  BottomSheetFormFooter,
+} from "../components/molcules/BottomSheetForm";
+import Carousel from "../components/molcules/Carousel";
+import CarouselItem from "../components/molcules/CarouselItem.Product";
+import Greeting from "../components/molcules/Greeting";
+import withPreload from "../hoc/withPreload";
 
 const Container = styled.View`
   display: flex;
@@ -24,20 +31,29 @@ const gradientStyle = {
   height: Layout.window.height - 150,
 };
 
-function Menu({ navigation, route }) {
+function Menu({ navigation, route, assets }) {
   const modalizeRef = React.useRef(null);
   const [state, setState] = React.useState({
+    isReady: false,
     selectedItem: 0,
     items: [
-      { name: "나이트로 바닐라 크림" },
-      { name: "초콜릿 블랙 콜드 브루" },
-      { name: "코코넛 화이트 콜드 브루" },
+      {
+        name: "피치 젤리 아이스티",
+        amount: "5,800원",
+        image: assets[0],
+      },
+      {
+        name: "블랙 와플칩 크림 프라푸치노",
+        amount: "7,800원",
+        image: assets[1],
+      },
     ],
   });
 
   const onSnapItem = (selectedItem) => {
     setState({ ...state, selectedItem });
   };
+
   const onSheetOpen = () => {
     modalizeRef.current?.open();
   };
@@ -46,7 +62,7 @@ function Menu({ navigation, route }) {
     modalizeRef.current?.close();
   };
 
-  const onBtnOrder = () => {
+  const onPositive = () => {
     navigation.navigate("Shop");
   };
 
@@ -59,17 +75,29 @@ function Menu({ navigation, route }) {
           style={gradientStyle}
         />
         <View>
-          <ProductCarousel items={state.items} onSnapToItem={onSnapItem} />
+          <Carousel
+            data={state.items}
+            renderItem={CarouselItem}
+            onSnapToItem={onSnapItem}
+          />
         </View>
-        <Button text="Order" onPress={onSheetOpen} />
+        <Button title="Order" onPress={onSheetOpen} />
         <BottomSheet
           useRef={modalizeRef}
           adjustToContentHeight
-          sheet={
-            <MenuDetailForm
+          HeaderComponent={
+            <BottomSheetFormHeader
               title={state.items[state.selectedItem].name}
-              onBtnOrder={onBtnOrder}
-              onBtnCancel={onSheetClose}
+              subTitle={state.items[state.selectedItem].amount}
+            />
+          }
+          BodyComponent={<BottomSheetFormBody />}
+          FooterComponent={
+            <BottomSheetFormFooter
+              titlePositive="주문"
+              titleNegative="취소"
+              onPositive={onPositive}
+              onNegative={onSheetClose}
             />
           }
         />
@@ -78,4 +106,7 @@ function Menu({ navigation, route }) {
   );
 }
 
-export default Menu;
+export default withPreload(
+  require("../assets/images/피치_젤리_아이스_티.png"),
+  require("../assets/images/블랙_와플칩_크림_프라푸치노.png"),
+)(Menu);

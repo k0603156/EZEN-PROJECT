@@ -1,18 +1,14 @@
 import * as React from "react";
-import styled from "styled-components";
-import { Text, Picker, CheckBox } from "react-native";
 import { Modalize } from "react-native-modalize";
-import Colors from "../constants/Colors";
-import Layout from "../constants/Layout";
 
 export default function BottomSheet({
   useRef,
   modalHeight,
-  sheet,
   onBackButtonPress,
   onOpened,
   onClosed,
   HeaderComponent,
+  BodyComponent,
   FloatingComponent,
   FooterComponent,
   adjustToContentHeight,
@@ -29,7 +25,7 @@ export default function BottomSheet({
       FooterComponent={FooterComponent}
       adjustToContentHeight={adjustToContentHeight}
     >
-      {sheet}
+      {BodyComponent}
     </Modalize>
   );
 }
