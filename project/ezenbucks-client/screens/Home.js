@@ -2,9 +2,14 @@ import * as React from "react";
 import styled from "styled-components";
 import { Ionicons, MaterialCommunityIcons } from "@expo/vector-icons";
 import Colors from "../constants/Colors";
-import Layout from "../constants/Layout";
-import Greeting from "../components/Greeting";
-import Button from "../components/Button";
+
+import Button from "../components/atoms/Button";
+import Col from "../components/atoms/Col";
+import Row from "../components/atoms/Row";
+import Carousel from "../components/molcules/Carousel";
+import CarouselItem from "../components/molcules/CarouselItem.Banner";
+import Greeting from "../components/molcules/Greeting";
+import withPreload from "../hoc/withPreload";
 
 const Container = styled.View`
   background-color: ${Colors.bgColor};
@@ -12,31 +17,32 @@ const Container = styled.View`
   flex: 1;
   flex-direction: column;
 `;
-const Rows = styled.View`
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-`;
 
-export default function Home({ navigation }) {
+function Home({ navigation, assets }) {
+  const Banners = [{ image: assets[0] }, { image: assets[0] }];
   return (
-    <Container>
+    <Container wrapper>
       <Greeting message="안녕하세요. 스타벅스입니다." />
-      <Rows></Rows>
-      <Rows>
+      <Col style={{ flex: 1, margin: 0 }}>
+        <Carousel data={Banners} renderItem={CarouselItem} />
+      </Col>
+      <Row style={{ flex: 1, margin: 0 }}>
         <Button
           icon={<Ionicons name="md-cafe" size={48} color="white" />}
-          text="DRINK"
+          title="DRINK"
           onPress={() => navigation.navigate("Menu")}
           textStyle={{ color: "white" }}
+          style={{ flex: 1, justifyContent: "center" }}
         />
         <Button
           icon={<MaterialCommunityIcons name="food" size={48} color="white" />}
-          text="FOOD"
+          title="FOOD"
           onPress={() => navigation.navigate("Menu")}
           textStyle={{ color: "white" }}
+          style={{ flex: 1, justifyContent: "center" }}
         />
-      </Rows>
+      </Row>
     </Container>
   );
 }
+export default withPreload(require("../assets/images/main_bn.png"))(Home);

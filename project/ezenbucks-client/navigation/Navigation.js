@@ -2,7 +2,7 @@ import "react-native-gesture-handler";
 import "react-native-reanimated";
 import * as React from "react";
 import { NavigationContainer } from "@react-navigation/native";
-import { createStackNavigator, HeaderTitle } from "@react-navigation/stack";
+import { createStackNavigator } from "@react-navigation/stack";
 import Color from "../constants/Colors";
 import { normalize } from "../constants/Layout";
 import Home from "../screens/Home";
