@@ -1,5 +1,7 @@
 package com.myweb.domain;
 
+import java.util.Date;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -8,10 +10,11 @@ import lombok.Setter;
 @Getter @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class CoffeeVO {
-	private int coffee_id;
-	private String coffee_title;
-	private int coffee_price;
-	private String coffee_temp;
-	private String coffee_size;
+public class ShopVO {
+	private int shop_id;
+	private String shop_name;
+	private double shop_latitude;
+	private double shop_longitude;
+
+	
 }

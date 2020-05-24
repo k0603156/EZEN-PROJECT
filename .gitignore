@@ -3,10 +3,10 @@
 .project
 .tern-project
 .settings/
-/target/
 **/target
 .springBeans
 Servers
+**/logs/
 *.log
 /.recommenders/
 tmp/

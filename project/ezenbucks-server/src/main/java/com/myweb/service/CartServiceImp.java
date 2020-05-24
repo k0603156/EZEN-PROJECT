@@ -9,19 +9,19 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
-import com.myweb.domain.CoffeeVO;
-import com.myweb.persistence.CoffeeDAO;
+import com.myweb.domain.CartVO;
+import com.myweb.persistence.CartDAO;
 
 @Service
-public class CoffeeServiceImp implements CoffeeService {
-	private static final Logger log = LoggerFactory.getLogger(CoffeeServiceImp.class);
+public class CartServiceImp implements CartService {
+	private static final Logger log = LoggerFactory.getLogger(CartServiceImp.class);
 	@Inject
-	private CoffeeDAO cdao;
+	private CartDAO cartdao;
 
 	@Override
-	public List<CoffeeVO> list() {
+	public List<CartVO> list() {
 		try {
-			return cdao.selectList();
+			return cartdao.selectList();
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
