@@ -30,7 +30,7 @@ public class EzenbucksCtrl {
 	@Inject
 	private ShopService shopsv;
 
-	@GetMapping(value = "/productlist")
+	@GetMapping(value = "/product/list")
 	public List<ProductVO> productlist() {
 		List<ProductVO> productlist = productsv.list();
 		return productlist;
