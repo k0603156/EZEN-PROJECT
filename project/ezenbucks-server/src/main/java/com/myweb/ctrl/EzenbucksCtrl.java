@@ -36,19 +36,19 @@ public class EzenbucksCtrl {
 		return productlist;
 	}
 	
-	@GetMapping(value="/cartlist")
+	@GetMapping(value="/cart/list")
 	public List<CartVO> cartlist(){
 		List<CartVO> cartlist = cartsv.list();
 		return cartlist;
 	}
 	
-	@GetMapping(value="/shoplist")
+	@GetMapping(value="/shop/list")
 	public List<ShopVO> shoplist(){
 		List<ShopVO> shoplist = shopsv.list();
 		return shoplist;
 	}
 	
-	@GetMapping(value="/orderlist")
+	@GetMapping(value="/order/list")
 	public List<OrderVO> orderlist(){
 		List<OrderVO> orderlist = ordersv.list();
 		return orderlist;
