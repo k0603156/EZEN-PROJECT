@@ -1,6 +1,6 @@
 import * as React from "react";
-import { AppLoading } from "expo";
 import { Asset } from "expo-asset";
+import AppLoading from "../components/molcules/AppLoading";
 
 export default function usePreload(...images) {
   return (component) => (props) => {
@@ -9,9 +9,12 @@ export default function usePreload(...images) {
     const assets = images.map((image) => Asset.fromModule(image).localUri);
 
     const preload = async () => {
-      await Promise.all(
-        images.map((image) => Asset.fromModule(image).downloadAsync()),
-      ).catch((e) => {
+      await Promise.all([
+        ...images.map((image) => Asset.fromModule(image).downloadAsync()),
+        new Promise((resolve, reject) => {
+          setTimeout(resolve, 30);
+        }),
+      ]).catch((e) => {
         console.warn(e);
       });
     };
