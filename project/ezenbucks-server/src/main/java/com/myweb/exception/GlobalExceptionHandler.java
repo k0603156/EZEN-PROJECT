@@ -12,7 +12,10 @@ import org.springframework.web.method.annotation.MethodArgumentTypeMismatchExcep
 import org.springframework.web.servlet.NoHandlerFoundException;
 
 import lombok.extern.slf4j.Slf4j;
-
+/** Error �ڵ鷯
+ * 
+ *
+ */
 @ControllerAdvice
 @Slf4j
 public class GlobalExceptionHandler {

@@ -1,7 +1,9 @@
 package com.myweb.exception;
 
 import lombok.Getter;
-
+/** Exception Error 컨트롤러
+ * 에러 핸들링 위한 클래스
+ */
 @Getter
 public enum ErrorCode {
 	MethodNotAllowed (405, "MethodNotAllow"),

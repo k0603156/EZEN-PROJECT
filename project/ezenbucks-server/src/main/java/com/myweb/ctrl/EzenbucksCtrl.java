@@ -25,6 +25,11 @@ import com.myweb.service.ItemService;
 import com.myweb.service.MapService;
 import com.myweb.service.OrderService;
 
+/** 컨트롤러 
+ *  기능이 많지 않아서 따로 분리를 하지는 않음
+ *  
+ *
+ */
 @RestController
 @RequestMapping(value = "/api/*", produces = "application/json")
 public class EzenbucksCtrl {

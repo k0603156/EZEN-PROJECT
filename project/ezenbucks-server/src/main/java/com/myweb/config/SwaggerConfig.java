@@ -14,7 +14,9 @@ import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
-
+/**
+ * API 명세를 보기쉽게 하기위한 툴 설정 
+ */
 @EnableSwagger2
 @Configuration
 @EnableWebMvc

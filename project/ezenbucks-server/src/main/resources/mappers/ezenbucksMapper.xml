@@ -28,6 +28,6 @@
 	</insert>
 	
 	<insert id="optionInsert" parameterType="optionvo" useGeneratedKeys="true" keyProperty="itemOptionId">
-		insert into item_option(item_option_temp, item_option_size) values(#{itemOptionTemp}, #{itemOptionSize})
+		insert into item_option(item_option_size) values(#{itemOptionSize})
 	</insert>
 </mapper>
