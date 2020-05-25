@@ -1,79 +1,73 @@
-상품리스트 불러오기
-
-```
-GET_http://hostname/api/product/list?type=coffee
-GET_http://hostname/api/product/list?type=food
-@type: coffee | food
-
-[
-{
-product_id:1,
-product_name:”나이트로 바닐라 크림",
-product_price:5600,
-product_image:”/static/produce1”
-},
-{
-product_id:2,
-product_name:”나이트로 바닐라 크림",
-product_price:5600,
-product_image:”/static/produce2”
-},{
-product_id:3,
-product_name:”나이트로 바닐라 크림",
-product_price:5600,
-product_image:”/static/produce3”
+api
+## Item API
+- LIST -
+```bash
+Method : GET
+URL : Domain/api/item/list
+DATA : {
+           "item_id":1,
+           "item_name":"아메리카노",
+           "item_price":1500,
+           "item_species":"coffee"
 }
-]
+Response : 200
 ```
 
-매장리스트 불러오기
-
+## Shop API
+-LIST-
+```bash
+Method : GET
+URL : Domain/api/shop/list
+DATA : {
+           "shop_id":1,
+           "shop_name":"강남역점",
+           "shop_latitude":37.4984305,
+           "shop_longitude":127.0272601
+}
+Response : 200
 ```
-GET_http://hostname/api/shop/list
-[
-{
-product_id:1,
-shop_name:”한국프레스센터",
-shop_address:”서울특별시 중구 세종대로 124(태평로1가)”,
-shop_image:”/static/shop1”
-},
-{
-product_id:2,
-shop_name:”무교동",
-shop_address:”서울특별시 중구  무교로21 (무교동) 코오롱빌딩 1층  ”,
-shop_image:”/static/sho청2”
-},{
-product_id:3,
-shop_name:”시청",
-shop_address:”서울특별시 중구 세종대로 124(태평로1가)”,
-shop_image:”/static/shop3”
+## Order API
+-LIST-
+```bash
+Method : GET
+URL : Domain/api/order/list
+DATA : {
+           "order_id":1,
+           "item_id":1,
+           "item_option_id":1,
+           "shop_id":1,
+           "order_count":1,
+           "order_datetime":1590360673000, <- 수정해야됨
+           "order_total_price":10000,
+           "order_status":"1"
 }
-]
+Response : 200
 ```
-
-주문하기
-
+## Order_Detail API
+-LIST-
+```bash
+Method : GET
+URL : Domain/api/order-detail
+DATA : {
+           "order_detail_id":1,"item_id":1,"item_option_id":1,"shop_id":1,
+           "order_detail_id":2,"item_id":2,"item_option_id":2,"shop_id":1,
+           "order_detail_id":3,"item_id":3,"item_option_id":3,"shop_id":1,
+           "order_detail_id":4,"item_id":4,"item_option_id":4,"shop_id":1,
+           "order_detail_id":5,"item_id":5,"item_option_id":0,"shop_id":1
+}
+Response : 200
 ```
-POST_http://hostname/api/order
-{
-shop_id:1,
-orders:{
-  product_id:1,
-  product_size:”short”,
-  product_temp:”ice”
+## Cart API
+-LIST-
+```bash
+Method : GET
+URL : Domain/api/cart/list
+DATA : {
+           "cart_id":1,
+           "item_id":1,
+           "item_option_id":1,
+           "cart_count":10,
+           "cart_datetime":1590390619000
 }
-}
-
-일단 enum말고 string으로
-
-product_size:[short, tall, grande, venti]
-product_temp:[hot,ice]
-
-RETURN
-{
-status:200
-data:{
-   order_id:1
-}
-}
+Response : 200
 ```
