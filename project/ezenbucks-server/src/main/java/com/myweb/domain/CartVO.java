@@ -10,10 +10,10 @@ import lombok.Setter;
 @Getter @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class OrderVO {
-	private int order_id;
-	private int order_detail_id;
-	private int order_total_price;
-	private Date order_datetime;
-	private char order_status;
+public class CartVO {
+	private int cart_id;
+	private int item_id;
+	private int item_option_id;
+	private int cart_count;
+	private Date cart_datetime;
 }

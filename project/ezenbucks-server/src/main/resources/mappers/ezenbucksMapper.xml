@@ -8,12 +8,19 @@
 	</select>
 
 	<select id="orderlist" resultType="ordervo">
+		select * from orders
+	</select>
+	
+	<select id="orderdetail" resultType="orderdetailvo">
 		select * from order_detail
 	</select>
 	
 	<select id="shoplist" resultType="shopvo">
 		select * from shop
 	</select>
-
+	
+	<select id="cartlist" resultType="cartvo">
+		select * from cart
+	</select>
 	
 </mapper>
