@@ -41,8 +41,9 @@ import com.myweb.exception.ErrorCode;
 import com.myweb.exception.RootException;
 
 import lombok.AllArgsConstructor;
-/** 외부 api의 데이터를 처리하는 비즈니스 로직
- *  kakao api
+/** 
+ * 외부 api의 데이터를 처리하는 비즈니스 로직
+ * kakao api
  */
 @Service
 @PropertySource("classpath:application.properties")

@@ -15,10 +15,10 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler;
 import org.springframework.util.CollectionUtils;
 import org.springframework.web.client.RestTemplate;
 
-/** API를 REST하게 만들기 위한 설정파일
+/** 
+ *  API를 REST하게 만들기 위한 설정파일
  *  데이터 핸들링이 쉬워지고
  *  코드를 간결하게 짤수있게 도와줌
- *
  */
 @Configuration
 public class RestTemplateConfig {

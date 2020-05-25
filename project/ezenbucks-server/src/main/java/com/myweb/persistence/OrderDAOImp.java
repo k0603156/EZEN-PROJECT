@@ -10,8 +10,8 @@ import org.springframework.stereotype.Repository;
 
 import com.myweb.domain.OrderDetailVO;
 import com.myweb.domain.OrderVO;
-/** DB 쿼리 작업을 위한 interface
- * 
+/** 
+ * DB 쿼리 작업을 위한 interface
  */
 @Repository
 public class OrderDAOImp implements OrderDAO{

@@ -12,9 +12,8 @@ import org.springframework.web.method.annotation.MethodArgumentTypeMismatchExcep
 import org.springframework.web.servlet.NoHandlerFoundException;
 
 import lombok.extern.slf4j.Slf4j;
-/** Error 핸들러
- * 
- *
+/** 
+ * Error 핸들러
  */
 @ControllerAdvice
 @Slf4j

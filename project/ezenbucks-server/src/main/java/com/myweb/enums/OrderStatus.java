@@ -5,9 +5,6 @@ package com.myweb.enums;
  * 0.상푼 준비 완료
  * 1.주문 완료
  * 2.테이크아웃
- * 
- * @author Admin
- *
  */
 public enum OrderStatus {
 	CookingComplete,

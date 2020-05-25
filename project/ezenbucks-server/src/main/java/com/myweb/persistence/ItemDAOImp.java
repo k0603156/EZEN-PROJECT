@@ -13,7 +13,8 @@ import org.springframework.stereotype.Repository;
 
 import com.myweb.domain.OptionVO;
 import com.myweb.domain.ItemVO;
-/** DB 쿼리 작업을 위한 interface
+/** 
+ * DB 쿼리 작업을 위한 interface
  */
 @Repository
 public class ItemDAOImp implements ItemDAO {

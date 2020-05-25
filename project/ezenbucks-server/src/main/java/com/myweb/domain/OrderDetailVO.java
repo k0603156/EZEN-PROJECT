@@ -5,7 +5,8 @@ import java.time.LocalDate;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-/** Order_detail 테이블 데이터 교환을 위한 객체
+/** 
+ * Order_detail 테이블 데이터 교환을 위한 객체
  * 상품 id
  * 상품 옵션
  * 주문 id

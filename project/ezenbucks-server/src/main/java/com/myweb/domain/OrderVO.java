@@ -8,7 +8,8 @@ import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-/** 주문테이블 데이터 교환을 위한 객체
+/** 
+ * 주문테이블 데이터 교환을 위한 객체
  * 주문 총 가격
  * 주문 상태
  * 매장 id

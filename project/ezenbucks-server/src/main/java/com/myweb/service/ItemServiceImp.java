@@ -14,7 +14,8 @@ import com.myweb.domain.ItemVO;
 import com.myweb.exception.ErrorCode;
 import com.myweb.exception.RootException;
 import com.myweb.persistence.ItemDAO;
-/** Item 에 관련된 비즈니스 로직 처리하는 객체
+/** 
+ * Item 에 관련된 비즈니스 로직 처리하는 객체
  */
 @Service
 public class ItemServiceImp implements ItemService {

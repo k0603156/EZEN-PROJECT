@@ -7,7 +7,8 @@ import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonFormat.Shape;
 
 import lombok.Getter;
-/** Error 반환을 위한 클래스
+/** 
+ * Error 반환을 위한 클래스
  */
 @Getter
 public class ErrorResponse {

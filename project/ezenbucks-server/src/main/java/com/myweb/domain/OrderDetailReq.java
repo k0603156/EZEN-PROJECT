@@ -5,9 +5,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 /**
- * 
  * Request 값을 처리하기 위한 클래스
- *
  */
 @Getter
 @AllArgsConstructor

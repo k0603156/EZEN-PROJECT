@@ -14,8 +14,8 @@ import com.myweb.enums.OrderStatus;
 import com.myweb.exception.RootException;
 import com.myweb.persistence.OrderDAO;
 import com.myweb.persistence.ItemDAO;
-/** 주문에 대한 비즈니스 로직 처리
- * 
+/** 
+ * 주문에 대한 비즈니스 로직 처리
  */
 @Service
 public class OrderServiceImp implements OrderService{
