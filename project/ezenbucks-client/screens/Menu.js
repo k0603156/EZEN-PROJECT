@@ -63,9 +63,10 @@ function Menu({ navigation, route, assets }) {
   };
 
   const onPositive = () => {
+    modalizeRef.current?.close();
     navigation.navigate("Shop");
   };
-
+  const onBackButtonPress = () => modalizeRef.current?.close();
   return (
     <Container>
       <Greeting message="안녕하세요. 스타벅스입니다." />
@@ -85,6 +86,8 @@ function Menu({ navigation, route, assets }) {
         <BottomSheet
           useRef={modalizeRef}
           adjustToContentHeight
+          onBackButtonPress={onBackButtonPress}
+          withReactModal
           HeaderComponent={
             <BottomSheetFormHeader
               title={state.items[state.selectedItem].name}
