@@ -3,24 +3,31 @@
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="EzenbucksMapper">
-	<select id="itemlist" resultType="itemvo">
+	<select id="itemList" resultType="itemvo">
 		select * from item
 	</select>
-
-	<select id="orderlist" resultType="ordervo">
-		select * from orders
-	</select>
 	
-	<select id="orderdetail" resultType="orderdetailvo">
-		select * from order_detail
-	</select>
+	<insert id="orderInsert" parameterType="ordervo" useGeneratedKeys="true" keyProperty="orderId">
+		insert into orders(order_total_price, order_status, shop_id) values(#{orderTotalPrice}, #{orderStatus}, #{shopId})
+	</insert>
 	
-	<select id="shoplist" resultType="shopvo">
-		select * from shop
-	</select>
+	<insert id="orderDetailInsert" parameterType="ordDetailvo">
+		insert into order_detail(item_id, item_option_id, order_id, order_detail_count) 
+					values(
+							#{itemId}, 
+							<choose>
+								<when test="itemOptionId != 0">
+									#{itemOptionId},
+								</when>
+								<otherwise>
+									null,
+								</otherwise>
+							</choose>
+							#{orderId}, 
+							#{orderDetailCount})
+	</insert>
 	
-	<select id="cartlist" resultType="cartvo">
-		select * from cart
-	</select>
-	
+	<insert id="optionInsert" parameterType="optionvo" useGeneratedKeys="true" keyProperty="itemOptionId">
+		insert into item_option(item_option_temp, item_option_size) values(#{itemOptionTemp}, #{itemOptionSize})
+	</insert>
 </mapper>

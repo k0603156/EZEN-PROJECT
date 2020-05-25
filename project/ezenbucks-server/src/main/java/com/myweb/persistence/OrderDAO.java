@@ -1,11 +1,11 @@
 package com.myweb.persistence;
 
 import java.sql.SQLException;
-import java.util.List;
 
+import com.myweb.domain.OrderDetailVO;
 import com.myweb.domain.OrderVO;
 
 public interface OrderDAO {
-	public List<OrderVO> selectList() throws SQLException;
-
+	public int save(OrderVO order) throws SQLException;
+	public void saveOrderDetail(OrderDetailVO order) throws SQLException;
 }
