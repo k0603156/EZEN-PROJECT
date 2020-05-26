@@ -33,7 +33,7 @@ export default function Shop({ navigation, route }) {
   }, []);
   console.log(route.params);
   const onItemPress = (shop) => {
-    navigation.navigate("Order", { item: route.params, shop });
+    navigation.navigate("Order", { items: route.params.items, shop });
   };
   return (
     <Container style={{ flex: 1, padding: 0, backgroundColor: Colors.bgColor }}>

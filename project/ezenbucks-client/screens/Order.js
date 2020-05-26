@@ -16,7 +16,7 @@ export default function Order({
   navigation,
   route: {
     params: {
-      item: { itemId, itemName, itemPrice },
+      items,
       shop: { distance, shopAddress, shopName },
     },
   },
@@ -45,35 +45,32 @@ export default function Order({
               <Text title="결제수단" size="md" />
             </Col>
             <Text title="최종 결제할 메뉴" size="sm" style={lableStyle} />
-            <Row>
-              <Col>
-                <Text title={itemName} size="md" />
-                <Text title="Chocolate Black Cold Brew" size="sm" />
-              </Col>
-              <Col style={{ flex: 1, justifyContent: "center" }}>
-                <Text
-                  title={itemPrice}
-                  size="sm"
-                  style={{ textAlign: "right" }}
-                />
-              </Col>
-            </Row>
-            <Row>
-              <Col>
-                <Text title={itemName} size="md" />
-                {/* <Text title="Chocolate Black Cold Brew" size="sm" /> */}
-              </Col>
-              <Col style={{ flex: 1, justifyContent: "center" }}>
-                <Text
-                  title={itemPrice}
-                  size="sm"
-                  style={{ textAlign: "right" }}
-                />
-              </Col>
-            </Row>
+            {items.map(({ itemId, itemName, itemPrice }) => (
+              <Row key={itemId}>
+                <Col>
+                  <Text title={itemName} size="md" />
+                  <Text title="Chocolate Black Cold Brew" size="sm" />
+                </Col>
+                <Col style={{ flex: 1, justifyContent: "center" }}>
+                  <Text
+                    title={`${itemPrice}원`}
+                    size="sm"
+                    style={{ textAlign: "right" }}
+                  />
+                </Col>
+              </Row>
+            ))}
+
             <Text title="최종 결제 금액" size="xl" style={lableStyle} />
             <Col>
-              <Text title="11,200원" size="lg" textAlign="right" />
+              <Text
+                title={`${items.reduce(
+                  (acc, { itemPrice }) => acc + itemPrice,
+                  0,
+                )}원`}
+                size="lg"
+                textAlign="right"
+              />
             </Col>
             <Col>
               <Button
