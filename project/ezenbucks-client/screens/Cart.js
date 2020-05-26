@@ -10,34 +10,29 @@ import Greeting from "../components/molcules/Greeting";
 import Text from "../components/atoms/Text";
 
 const lableStyle = {
-  marginTop: 14,
+  marginTop: 10,
 };
-export default function Order({
-  navigation,
-  route: {
-    params: {
-      item: { itemId, itemName, itemPrice },
-      shop: { distance, shopAddress, shopName },
-    },
-  },
-}) {
+export default function Cart({ navigation, route }) {
   return (
     <Container style={{ padding: 0, flex: 1, backgroundColor: Colors.bgColor }}>
-      <Greeting message="주문 결제 화면입니다." />
+      <Greeting message="cart" />
       <SafeAreaView>
         <ScrollView>
           <Col>
-            <Text title={shopName} size="sm" />
+            <Text title="주문 매장" size="sm" />
             <Col>
               <Text title="한국프레스센터점" size="xl" />
-              <Text title={shopAddress} size="sm" />
+              <Text
+                title="서울 특별시 중구 세종대로 124(태평로1가)"
+                size="sm"
+              />
             </Col>
             <Text title="주문 옵션" size="sm" style={lableStyle} />
             <Col>
               <Text title="포장 옵션" size="md" />
               <Text
                 title="전체 포장(음료는 캐리어에, 푸드와 상품은 종이백에 포장)"
-                size="xs"
+                size="sm"
               />
             </Col>
             <Text title="결제" size="sm" style={lableStyle} />
@@ -45,14 +40,15 @@ export default function Order({
               <Text title="결제수단" size="md" />
             </Col>
             <Text title="최종 결제할 메뉴" size="sm" style={lableStyle} />
+
             <Row>
               <Col>
-                <Text title={itemName} size="md" />
+                <Text title="초콜릿 블랙 콜드 브루" size="md" />
                 <Text title="Chocolate Black Cold Brew" size="sm" />
               </Col>
               <Col style={{ flex: 1, justifyContent: "center" }}>
                 <Text
-                  title={itemPrice}
+                  title="5,600원"
                   size="sm"
                   style={{ textAlign: "right" }}
                 />
@@ -60,12 +56,12 @@ export default function Order({
             </Row>
             <Row>
               <Col>
-                <Text title={itemName} size="md" />
-                {/* <Text title="Chocolate Black Cold Brew" size="sm" /> */}
+                <Text title="초콜릿 블랙 콜드 브루" size="md" />
+                <Text title="Chocolate Black Cold Brew" size="sm" />
               </Col>
               <Col style={{ flex: 1, justifyContent: "center" }}>
                 <Text
-                  title={itemPrice}
+                  title="5,600원"
                   size="sm"
                   style={{ textAlign: "right" }}
                 />
@@ -75,13 +71,11 @@ export default function Order({
             <Col>
               <Text title="11,200원" size="lg" textAlign="right" />
             </Col>
-            <Col>
-              <Button
-                title="주문하기"
-                style={{ backgroundColor: Colors.darkGreen, borderRadius: 6 }}
-                textStyle={{ color: "white" }}
-              />
-            </Col>
+            <Button
+              title="주문하기"
+              style={{ backgroundColor: Colors.darkGreen, borderRadius: 6 }}
+              textStyle={{ color: "white" }}
+            />
           </Col>
         </ScrollView>
       </SafeAreaView>

@@ -11,9 +11,6 @@ export default function usePreload(...images) {
     const preload = async () => {
       await Promise.all([
         ...images.map((image) => Asset.fromModule(image).downloadAsync()),
-        new Promise((resolve, reject) => {
-          setTimeout(resolve, 30);
-        }),
       ]).catch((e) => {
         console.warn(e);
       });

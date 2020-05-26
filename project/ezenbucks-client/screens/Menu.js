@@ -1,28 +1,33 @@
 import * as React from "react";
 import styled from "styled-components";
-import { View } from "react-native";
-
 import { LinearGradient } from "expo-linear-gradient";
 import Colors from "../constants/Colors";
 import Layout from "../constants/Layout";
 
 import Button from "../components/atoms/Button";
 import BottomSheet from "../components/molcules/BottomSheet";
-import BottomSheetFormBody, {
+import {
   BottomSheetFormHeader,
   BottomSheetFormFooter,
+  BottomSheetToggle,
 } from "../components/molcules/BottomSheetForm";
 import Carousel from "../components/molcules/Carousel";
 import CarouselItem from "../components/molcules/CarouselItem.Product";
 import Greeting from "../components/molcules/Greeting";
 import withPreload from "../hoc/withPreload";
+import useInput from "../hooks/useInput";
+import { fetchListItem } from "../services/api";
 
 const Container = styled.View`
   display: flex;
   flex: 1;
   flex-direction: column;
 `;
-
+const OrderButton = styled(Button)`
+  margin: 16px;
+  background-color: ${Colors.darkGreen};
+  border-radius: 8;
+`;
 const gradientStyle = {
   position: "absolute",
   left: 0,
@@ -30,43 +35,51 @@ const gradientStyle = {
   top: 0,
   height: Layout.window.height - 150,
 };
-
 function Menu({ navigation, route, assets }) {
   const modalizeRef = React.useRef(null);
-  const [state, setState] = React.useState({
-    isReady: false,
-    selectedItem: 0,
-    items: [
-      {
-        name: "피치 젤리 아이스티",
-        amount: "5,800원",
-        image: assets[0],
-      },
-      {
-        name: "블랙 와플칩 크림 프라푸치노",
-        amount: "7,800원",
-        image: assets[1],
-      },
-    ],
-  });
+  const [response, setResponse] = React.useState([]);
+  const itemSelected = useInput(0);
+  const itemTemp = useInput("ICE");
 
-  const onSnapItem = (selectedItem) => {
-    setState({ ...state, selectedItem });
+  const selectedItem = response[itemSelected.value];
+  const BottomSheetBodyComponent = selectedItem?.itemSpecies === "coffee" && (
+    <Container>
+      <BottomSheetToggle
+        title="HOT/ICE"
+        options={["HOT", "ICE"]}
+        selectedOption={itemTemp.value}
+        onValueChange={(option) => itemTemp.onChange(option)}
+      />
+    </Container>
+  );
+
+  const fetchItems = async () => {
+    try {
+      const { status, data } = await fetchListItem();
+      if (status === 200) {
+        setResponse(toCamelCaseObjectKey(data));
+      }
+    } catch (error) {
+      console.log(error.message);
+    }
   };
 
-  const onSheetOpen = () => {
-    modalizeRef.current?.open();
-  };
+  React.useEffect(() => {
+    fetchItems();
+  }, []);
 
-  const onSheetClose = () => {
-    modalizeRef.current?.close();
-  };
+  const onSnapItem = (selectedItem) => itemSelected.onChange(selectedItem);
+
+  const onSheetOpen = () => modalizeRef.current?.open();
+
+  const onSheetClose = () => modalizeRef.current?.close();
 
   const onPositive = () => {
     modalizeRef.current?.close();
-    navigation.navigate("Shop");
+    navigation.navigate("Shop", { items: [response[itemSelected.value]] });
   };
   const onBackButtonPress = () => modalizeRef.current?.close();
+
   return (
     <Container>
       <Greeting message="안녕하세요. 스타벅스입니다." />
@@ -75,14 +88,20 @@ function Menu({ navigation, route, assets }) {
           colors={[Colors.darkGray, "transparent"]}
           style={gradientStyle}
         />
-        <View>
+        <Container>
           <Carousel
-            data={state.items}
+            data={response}
             renderItem={CarouselItem}
             onSnapToItem={onSnapItem}
+            style={{ flex: 1 }}
           />
-        </View>
-        <Button title="Order" onPress={onSheetOpen} />
+          <OrderButton
+            title="Order"
+            onPress={onSheetOpen}
+            textStyle={{ color: Colors.fontColor }}
+          />
+        </Container>
+
         <BottomSheet
           useRef={modalizeRef}
           adjustToContentHeight
@@ -90,11 +109,11 @@ function Menu({ navigation, route, assets }) {
           withReactModal
           HeaderComponent={
             <BottomSheetFormHeader
-              title={state.items[state.selectedItem].name}
-              subTitle={state.items[state.selectedItem].amount}
+              title={selectedItem?.itemName}
+              subTitle={selectedItem?.itemPrice + "원"}
             />
           }
-          BodyComponent={<BottomSheetFormBody />}
+          BodyComponent={BottomSheetBodyComponent}
           FooterComponent={
             <BottomSheetFormFooter
               titlePositive="주문"
@@ -109,7 +128,17 @@ function Menu({ navigation, route, assets }) {
   );
 }
 
-export default withPreload(
-  require("../assets/images/피치_젤리_아이스_티.png"),
-  require("../assets/images/블랙_와플칩_크림_프라푸치노.png"),
-)(Menu);
+export default withPreload()(Menu);
+
+//api에서 오는 데이터 네이밍 케이스가 맞지 않아 변경
+const toCamelCaseObjectKey = (objectArr) => {
+  return objectArr.map((item) =>
+    Object.entries(item).reduce((acc, [key, value]) => {
+      return Object.assign(acc, { [toCamelCase(key)]: value });
+    }, {}),
+  );
+};
+const toCamelCase = (str) =>
+  String(str)
+    .toLowerCase()
+    .replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());

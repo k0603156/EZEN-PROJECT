@@ -6,10 +6,13 @@ import Layout from "../../constants/Layout";
 const Container = styled.TouchableOpacity`
   align-items: center;
   margin-top: 10px;
-  padding: 5px;
+  padding: 8px 0;
+  ${({ style }) => style}
 `;
 
-const ButtonText = styled.Text``;
+const ButtonText = styled.Text`
+  ${({ style }) => style}
+`;
 
 export default function Button({
   className,

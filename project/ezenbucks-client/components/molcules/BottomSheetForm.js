@@ -1,4 +1,5 @@
 import * as React from "react";
+import styled from "styled-components";
 import Button from "../atoms/Button";
 import Text from "../atoms/Text";
 import Container from "../atoms/Container";
@@ -6,43 +7,18 @@ import Row from "../atoms/Row";
 import Col from "../atoms/Col";
 import Picker from "../atoms/Picker";
 
-export function BottomSheetFormHeader({ title, subTitle }) {
+const Label = styled(Text)`
+  height: 50px;
+  width: 100px;
+  line-height: 50px;
+`;
+
+export function BottomSheetFormHeader({ title = "", subTitle = "" }) {
   return (
     <Col>
-      <Text size={"md"} color="black" title={title} />
+      <Text size={"xl"} color="black" title={title} />
       <Text size={"md"} color="black" textAlign="right" title={subTitle} />
     </Col>
-  );
-}
-export default function BottomSheetFormBody() {
-  const [state, setState] = React.useState({
-    size: "Tall",
-    temp: "Hot",
-  });
-  const onValueChange = (itemValue, itemIndex) => {
-    setState({ ...state, size: itemValue });
-  };
-  return (
-    <Container>
-      <Col>
-        <Row style={{ justifyContent: "space-between" }}>
-          <Text color="black" title="사이즈" />
-          <Picker
-            selectedValue={state.size}
-            style={{ height: 50, width: 150 }}
-            onValueChange={onValueChange}
-          >
-            <Picker.Item label="Tall" value="Tall" />
-            <Picker.Item label="Regular" value="Regular" />
-          </Picker>
-        </Row>
-        <Row style={{ justifyContent: "space-between" }}>
-          <Text title="Hot/Cold" color="black" />
-          <Button title="Hot" />
-          <Button title="Cold" />
-        </Row>
-      </Col>
-    </Container>
   );
 }
 
@@ -65,5 +41,61 @@ export function BottomSheetFormFooter({
         style={{ flex: 1, justifyContent: "center" }}
       />
     </Row>
+  );
+}
+export function BottomSheetSelect({
+  title,
+  options,
+  selectedOption,
+  onValueChange,
+}) {
+  return (
+    <Col>
+      <Row style={{ flex: 1, justifyContent: "space-around" }}>
+        <Label title={title} color="black" />
+        <Picker
+          selectedValue={selectedOption}
+          onValueChange={onValueChange}
+          style={{ flex: 1 }}
+          mode="dropdown"
+        >
+          {options.map((option) => (
+            <Picker.Item label={option} value={option} />
+          ))}
+        </Picker>
+      </Row>
+    </Col>
+  );
+}
+export function BottomSheetToggle({
+  title,
+  options,
+  selectedOption,
+  onValueChange,
+}) {
+  const backgroundColor = (option) =>
+    selectedOption === option ? "black" : "white";
+  const color = (option) => (selectedOption === option ? "white" : "black");
+  return (
+    <Col>
+      <Row style={{ flex: 1, justifyContent: "space-around" }}>
+        <Label title={title} color="black" />
+        {options.map((option) => (
+          <Button
+            title={option}
+            onPress={(e) => onValueChange(option)}
+            style={{
+              flex: 1,
+              border: "1px solid black",
+              borderRadius: 4,
+              backgroundColor: backgroundColor(option),
+            }}
+            textStyle={{
+              color: color(option),
+            }}
+          />
+        ))}
+      </Row>
+    </Col>
   );
 }

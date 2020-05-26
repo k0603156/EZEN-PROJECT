@@ -2,12 +2,7 @@ import * as React from "react";
 import Carousel from "react-native-snap-carousel";
 import Layout, { normalize } from "../../constants/Layout";
 
-export default function ProductCarousel({
-  data,
-  renderItem,
-  onScroll,
-  onSnapToItem,
-}) {
+export default function ({ data, renderItem, onScroll, onSnapToItem, style }) {
   return (
     <Carousel
       data={data}
@@ -16,6 +11,7 @@ export default function ProductCarousel({
       onSnapToItem={onSnapToItem}
       sliderWidth={Layout.window.width}
       itemWidth={Layout.window.width}
+      style={style}
     />
   );
 }

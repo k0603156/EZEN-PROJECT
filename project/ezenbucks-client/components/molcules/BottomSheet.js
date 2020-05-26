@@ -1,6 +1,7 @@
 import * as React from "react";
 import { Modalize } from "react-native-modalize";
 
+const defaultModalStyle = { padding: 8 };
 export default function BottomSheet({
   useRef,
   modalHeight,
@@ -16,6 +17,8 @@ export default function BottomSheet({
   FloatingComponent,
   FooterComponent,
   adjustToContentHeight,
+  rootStyle,
+  modalStyle,
 }) {
   return (
     <Modalize
@@ -32,6 +35,8 @@ export default function BottomSheet({
       FloatingComponent={FloatingComponent}
       FooterComponent={FooterComponent}
       adjustToContentHeight={adjustToContentHeight}
+      rootStyle={rootStyle}
+      modalStyle={{ ...defaultModalStyle, ...modalStyle }}
     >
       {BodyComponent}
     </Modalize>

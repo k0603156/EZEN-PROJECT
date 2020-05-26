@@ -3,7 +3,6 @@ import { Platform, StatusBar, View } from "react-native";
 import useCachedResources from "./hooks/useCachedResources";
 
 import Navigation from "./navigation/Navigation";
-import Greeting from "./components/molcules/Greeting";
 
 function App(props) {
   const isLoadingComplete = useCachedResources();

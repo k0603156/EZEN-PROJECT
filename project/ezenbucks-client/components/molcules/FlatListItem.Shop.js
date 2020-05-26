@@ -8,9 +8,9 @@ import Col from "../atoms/Col";
 import Row from "../atoms/Row";
 import TouchableOpacity from "../atoms/TouchableOpacity";
 
-export default function ShopItem({ item, navigation }) {
+export default function ShopItem({ item, onPress }) {
   return (
-    <TouchableOpacity onPress={() => navigation.navigate("Order")}>
+    <TouchableOpacity onPress={() => onPress(item)}>
       <Row
         style={{
           justifyContent: "space-between",
@@ -26,11 +26,15 @@ export default function ShopItem({ item, navigation }) {
         />
 
         <Col style={{ flex: 1 }}>
-          <Text title={item.title} size="md" style={{ color: "#fff" }} />
-          <Text title={item.address} size="xs" style={{ color: "#fff" }} />
+          <Text title={item.shopName} size="md" style={{ color: "#fff" }} />
+          <Text title={item.shopAddress} size="xs" style={{ color: "#fff" }} />
         </Col>
         <Col>
-          <Text title={"95m"} size="xs" style={{ color: "#fff" }} />
+          <Text
+            title={`${Number(item.distance).toFixed(1)}km`}
+            size="xs"
+            style={{ color: "#fff" }}
+          />
         </Col>
       </Row>
     </TouchableOpacity>
