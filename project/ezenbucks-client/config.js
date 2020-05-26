@@ -1,1 +1,1 @@
-export const URL = "http://192.168.0.6:8081/resources";
+export const URL = "http://025e3849.ngrok.io";

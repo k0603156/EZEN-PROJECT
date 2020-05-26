@@ -26,7 +26,7 @@ const Container = styled.View`
 const OrderButton = styled(Button)`
   margin: 16px;
   background-color: ${Colors.darkGreen};
-  border-radius: 8;
+  border-radius: 8px;
 `;
 const gradientStyle = {
   position: "absolute",
@@ -35,7 +35,7 @@ const gradientStyle = {
   top: 0,
   height: Layout.window.height - 150,
 };
-function Menu({ navigation, route, assets }) {
+function Menu({ navigation, route, preloadData }) {
   const modalizeRef = React.useRef(null);
   const [response, setResponse] = React.useState([]);
   const itemSelected = useInput(0);
@@ -53,6 +53,7 @@ function Menu({ navigation, route, assets }) {
     </Container>
   );
 
+  console.log(preloadData);
   const fetchItems = async () => {
     try {
       const { status, data } = await fetchListItem();
@@ -128,14 +129,14 @@ function Menu({ navigation, route, assets }) {
   );
 }
 
-export default withPreload()(Menu);
+export default withPreload({ apis: [fetchListItem] })(Menu);
 
 //api에서 오는 데이터 네이밍 케이스가 맞지 않아 변경
 const toCamelCaseObjectKey = (objectArr) => {
   return objectArr.map((item) =>
     Object.entries(item).reduce((acc, [key, value]) => {
       return Object.assign(acc, { [toCamelCase(key)]: value });
-    }, {}),
+    }, {})
   );
 };
 const toCamelCase = (str) =>

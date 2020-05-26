@@ -1,7 +1,8 @@
 import axios from "axios";
+import { URL } from "../config";
 
 const request = axios.create({
-  baseURL: "http://192.168.0.6:8081/api",
+  baseURL: `${URL}/api`,
   timeout: 5000,
   headers: {
     common: {},

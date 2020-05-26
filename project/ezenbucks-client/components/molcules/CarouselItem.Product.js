@@ -2,6 +2,8 @@ import * as React from "react";
 import styled from "styled-components";
 import Layout, { normalize } from "../../constants/Layout";
 import Col from "../atoms/Col";
+import { URL } from "../../config";
+
 const Container = styled.View`
   display: flex;
   flex: 1;
@@ -24,7 +26,7 @@ export default function ProductItem({
       <ProductImage
         resizeMode={"contain"}
         source={{
-          uri: `http://192.168.0.6:8081/resources/${itemSpecies}/${itemName}.png`,
+          uri: `${URL}/resources/${itemSpecies}/${itemName}.png`,
         }}
       />
       <Col>

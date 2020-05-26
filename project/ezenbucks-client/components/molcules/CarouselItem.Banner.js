@@ -7,7 +7,7 @@ export default function BannerItem({ item: { image } }) {
     <Container style={{ padding: 0 }}>
       <Image
         resizeMode={"cover"}
-        source={{ uri: image }}
+        source={image}
         style={{
           height: "100%",
           width: "100%",

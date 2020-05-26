@@ -27,9 +27,9 @@ export default function Order({
       <SafeAreaView>
         <ScrollView>
           <Col>
-            <Text title={shopName} size="sm" />
+            <Text title="매장정보" size="sm" />
             <Col>
-              <Text title="한국프레스센터점" size="xl" />
+              <Text title={shopName} size="xl" />
               <Text title={shopAddress} size="sm" />
             </Col>
             <Text title="주문 옵션" size="sm" style={lableStyle} />
@@ -49,7 +49,7 @@ export default function Order({
               <Row key={itemId}>
                 <Col>
                   <Text title={itemName} size="md" />
-                  <Text title="Chocolate Black Cold Brew" size="sm" />
+                  {/* <Text title="Chocolate Black Cold Brew" size="sm" /> */}
                 </Col>
                 <Col style={{ flex: 1, justifyContent: "center" }}>
                   <Text
@@ -66,7 +66,7 @@ export default function Order({
               <Text
                 title={`${items.reduce(
                   (acc, { itemPrice }) => acc + itemPrice,
-                  0,
+                  0
                 )}원`}
                 size="lg"
                 textAlign="right"

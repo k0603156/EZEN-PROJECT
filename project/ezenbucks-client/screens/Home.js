@@ -18,8 +18,11 @@ const Container = styled.View`
   flex-direction: column;
 `;
 
-function Home({ navigation, assets }) {
-  const Banners = [{ image: assets[0] }, { image: assets[0] }];
+function Home({ navigation, preloadData }) {
+  const Banners = [
+    { image: require("../assets/images/main_bn.png") },
+    { image: require("../assets/images/main_bn.png") },
+  ];
   return (
     <Container wrapper>
       <Greeting message="안녕하세요. 스타벅스입니다." />
@@ -45,4 +48,6 @@ function Home({ navigation, assets }) {
     </Container>
   );
 }
-export default withPreload(require("../assets/images/main_bn.png"))(Home);
+export default withPreload({
+  images: [require("../assets/images/main_bn.png")],
+})(Home);

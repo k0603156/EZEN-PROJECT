@@ -6,9 +6,10 @@ import Greeting from "../components/molcules/Greeting";
 import FlatList from "../components/molcules/FlatList";
 import FlatListItem from "../components/molcules/FlatListItem.Shop";
 import SearchBar from "../components/molcules/SearchBar";
+import withPreload from "../hoc/withPreload";
 import { fetchListShop } from "../services/api";
 
-export default function Shop({ navigation, route }) {
+function Shop({ navigation, route, preloadData }) {
   const [input, setInput] = React.useState("");
   const [shops, setShops] = React.useState([]);
   const requestCurrentPosition = () => {
@@ -23,7 +24,7 @@ export default function Shop({ navigation, route }) {
         }
       },
       (error) => {},
-      { enableHighAccuracy: true, timeout: 20000, maximumAge: 1000 },
+      { enableHighAccuracy: true, timeout: 20000, maximumAge: 1000 }
     );
   };
   React.useEffect(() => {
@@ -31,7 +32,6 @@ export default function Shop({ navigation, route }) {
       requestCurrentPosition();
     }
   }, []);
-  console.log(route.params);
   const onItemPress = (shop) => {
     navigation.navigate("Order", { items: route.params.items, shop });
   };
@@ -49,3 +49,23 @@ export default function Shop({ navigation, route }) {
     </Container>
   );
 }
+
+export default withPreload({
+  apis: [
+    async () => {
+      await navigator.geolocation.getCurrentPosition(
+        async (position) => {
+          const { status, data } = await fetchListShop({
+            longitude: position.coords.longitude,
+            latitude: position.coords.latitude,
+          });
+          if (status === 200) {
+            return data;
+          }
+        },
+        (error) => {},
+        { enableHighAccuracy: true, timeout: 20000, maximumAge: 1000 }
+      );
+    },
+  ],
+})(Shop);
