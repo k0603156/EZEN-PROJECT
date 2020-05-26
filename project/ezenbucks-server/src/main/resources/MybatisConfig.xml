@@ -4,9 +4,8 @@
 	<typeAliases>
 		<!-- <package name="com.myweb.domain" /> -->
 		<typeAlias type="com.myweb.domain.ItemVO" alias="itemvo"/>
+		<typeAlias type="com.myweb.domain.OrderDetailVO" alias="ordDetailvo"/>
 		<typeAlias type="com.myweb.domain.OrderVO" alias="ordervo"/>
-		<typeAlias type="com.myweb.domain.OrderDetailVO" alias="orderdetailvo"/>
-		<typeAlias type="com.myweb.domain.ShopVO" alias="shopvo"/>
-		<typeAlias type="com.myweb.domain.CartVO" alias="cartvo"/>
+		<typeAlias type="com.myweb.domain.OptionVO" alias="optionvo"/>
 	</typeAliases>
 </configuration>
