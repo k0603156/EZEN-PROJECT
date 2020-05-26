@@ -16,9 +16,9 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 public class ItemVO {
-	private int itemId;
-	private String itemName;
-	private int itemPrice;
-	private String itemSpecies;
-	private String itemTemp;
+	private int item_id;
+	private String item_name;
+	private int item_price;
+	private String item_species;
+	private String item_temp;
 }
