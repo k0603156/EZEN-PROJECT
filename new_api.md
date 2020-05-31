@@ -3,6 +3,7 @@
 ### GET
 ### /api/product
 ### response data
+```bash
 [{
     "product_id": 1,
     "product_name": "아메리카노",
@@ -53,7 +54,7 @@
     "temp_opt": null,
     "size_opt": null
 }]
-
+```
 ---
 
 ### 매장보기
@@ -62,6 +63,7 @@
 ### /api/shop/{x}/{y}
 ### x: 위도, y:경도
 ### response data
+```bash
 [{
     "place_name": "스타벅스 몬테소리점",
     "distance": "595",
@@ -75,7 +77,7 @@
     "distance": "186",
     "address_name": "서울 서초구 서초동 1303-22"
 }]
-
+```
 ---
 
 ### 주문하기
@@ -83,6 +85,7 @@
 ### /api/order
 
 ### request data
+```bash
 {
     "products" : [
         {
@@ -102,14 +105,14 @@
     ],
     "shop_name" : "스타벅스 강남교보타워R점"
 }
-
+```
 ---
 
 ### 주문내역보기
 ### GET
 ### api/receipt
 ### response data
-
+```bash
 [{
     "shop": {
         "shop_name": "스타벅스 강남에비뉴점",
@@ -183,5 +186,5 @@
     }],
     "total": 10000
 }]
-
+```
 
