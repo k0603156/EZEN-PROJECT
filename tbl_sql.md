@@ -60,6 +60,11 @@ CREATE TABLE `order_details` (
   CONSTRAINT `order_details_fk_2` FOREIGN KEY (`product_opt_id`) REFERENCES `product_opt` (`product_opt_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+ALTER TABLE orders
+  ADD shop_name varchar(40) NOT NULL;
+  
+ALTER TABLE ezenbucks.orders ADD CONSTRAINT orders_fk FOREIGN KEY (shop_name) REFERENCES ezenbucks.shop(shop_name);
+
 ---
 
 ### DML >>> INSERT
