@@ -62,7 +62,7 @@ CREATE TABLE `order_details` (
 
 ---
 
-###DML: INSERT
+### DML >>> INSERT
 
 INSERT INTO ezenbucks.customer (customer_name) VALUES
 ('김용국')
