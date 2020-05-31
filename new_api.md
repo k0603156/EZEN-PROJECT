@@ -1,8 +1,8 @@
 ### 상품보기
 
-## GET
-## /api/product
-# response data
+### GET
+### /api/product
+### response data
 [{
     "product_id": 1,
     "product_name": "아메리카노",
@@ -58,10 +58,10 @@
 
 ### 매장보기
 
-## GET
-## /api/shop/{x}/{y}
-# x: 위도, y:경도
-# response data
+### GET
+### /api/shop/{x}/{y}
+### x: 위도, y:경도
+### response data
 [{
     "place_name": "스타벅스 몬테소리점",
     "distance": "595",
@@ -79,10 +79,10 @@
 ---
 
 ### 주문하기
-## POST
-## /api/order
+### POST
+### /api/order
 
-# request data
+### request data
 {
     "products" : [
         {
@@ -106,9 +106,9 @@
 ---
 
 ### 주문내역보기
-## GET
-## api/receipt
-# response data
+### GET
+### api/receipt
+### response data
 
 [{
     "shop": {
