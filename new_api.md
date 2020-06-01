@@ -113,78 +113,99 @@
 ### api/receipt
 ### response data
 ```bash
-[{
+[
+  {
     "shop": {
-        "shop_name": "스타벅스 강남에비뉴점",
-        "shop_address": "서울 서초구 서초동 1303-16",
-        "shop_phone": "1522-3232"
+      "shop_name": "스타벅스 강남에비뉴점",
+      "shop_address": "서울 서초구 서초동 1303-16",
+      "shop_phone": "1522-3232"
     },
-    "products": [{
+    "products": [
+      {
         "product_name": "아메리카노",
         "unit_price": 2000,
         "quantity": 1,
         "subTotal": 2000
-    }, {
+      },
+      {
         "product_name": "허니버터브래드",
         "unit_price": 2000,
         "quantity": 2,
         "subTotal": 4000
-    }],
-    "total": 6000
-}, {
+      }
+    ],
+    "total": 6000,
+    "order_date": "2020.06.01 01:57"
+  },
+  {
     "shop": {
-        "shop_name": "스타벅스 강남교보타워R점",
-        "shop_address": "서울 서초구 서초동 1303-22",
-        "shop_phone": "1522-3232"
+      "shop_name": "스타벅스 강남교보타워R점",
+      "shop_address": "서울 서초구 서초동 1303-22",
+      "shop_phone": "1522-3232"
     },
-    "products": [{
+    "products": [
+      {
         "product_name": "아메리카노",
         "unit_price": 2000,
         "quantity": 3,
         "subTotal": 6000
-    }, {
+      },
+      {
         "product_name": "허니버터브래드",
         "unit_price": 2000,
         "quantity": 2,
         "subTotal": 4000
-    }],
-    "total": 10000
-}, {
+      }
+    ],
+    "total": 10000,
+    "order_date": "2020.06.01 02:43"
+  },
+  {
     "shop": {
-        "shop_name": "스타벅스 강남교보타워R점",
-        "shop_address": "서울 서초구 서초동 1303-22",
-        "shop_phone": "1522-3232"
+      "shop_name": "스타벅스 강남교보타워R점",
+      "shop_address": "서울 서초구 서초동 1303-22",
+      "shop_phone": "1522-3232"
     },
-    "products": [{
+    "products": [
+      {
         "product_name": "아메리카노",
         "unit_price": 2000,
         "quantity": 3,
         "subTotal": 6000
-    }, {
+      },
+      {
         "product_name": "허니버터브래드",
         "unit_price": 2000,
         "quantity": 2,
         "subTotal": 4000
-    }],
-    "total": 10000
-}, {
+      }
+    ],
+    "total": 10000,
+    "order_date": "2020.06.01 04:18"
+  },
+  {
     "shop": {
-        "shop_name": "스타벅스 강남교보타워R점",
-        "shop_address": "서울 서초구 서초동 1303-22",
-        "shop_phone": "1522-3232"
+      "shop_name": "스타벅스 강남교보타워R점",
+      "shop_address": "서울 서초구 서초동 1303-22",
+      "shop_phone": "1522-3232"
     },
-    "products": [{
+    "products": [
+      {
         "product_name": "아메리카노",
         "unit_price": 2000,
         "quantity": 3,
         "subTotal": 6000
-    }, {
+      },
+      {
         "product_name": "허니버터브래드",
         "unit_price": 2000,
         "quantity": 2,
         "subTotal": 4000
-    }],
-    "total": 10000
-}]
+      }
+    ],
+    "total": 10000,
+    "order_date": "2020.06.01 04:20"
+  }
+]
 ```
 
