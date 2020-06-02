@@ -1,62 +1,66 @@
 package com.myweb.service;
 
+import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import javax.inject.Inject;
+
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
-import com.myweb.domain.OptionVO;
-import com.myweb.domain.OrderDetailReq;
-import com.myweb.domain.OrderDetailVO;
 import com.myweb.domain.OrderVO;
-import com.myweb.enums.OrderStatus;
-import com.myweb.exception.RootException;
+import com.myweb.domain.OrderedItemDTO;
+import com.myweb.domain.ShopVO;
 import com.myweb.persistence.OrderDAO;
-import com.myweb.persistence.ItemDAO;
-/** 
- * 주문에 대한 비즈니스 로직 처리
- */
+import com.myweb.persistence.ShopDAO;
+
 @Service
 public class OrderServiceImp implements OrderService{
 	
-	@Autowired
-	private OrderDAO orderDAOImp;
+	@Inject
+	OrderDAO odao;
 	
-	@Autowired
-	private ItemDAO productionDAOImp;
+	@Inject
+	ShopDAO sdao;
 	
 	@Override
-	@Transactional
-	public void saveOrder(OrderVO order, List<OrderDetailReq> list) throws Exception {
-		if(order.getOrderStatus() != OrderStatus.CompletetPayment.ordinal()) {
-			throw new RootException();
+	public int writeOrder(int customer_id, List<Map<String, String>> list, String shop_name) {
+		// TODO Auto-generated method stub
+		odao.writeOne(customer_id, shop_name); 
+		int maxId = odao.selectOne();
+		
+		for(Map<String, String> map : list) {
+			odao.writeOne(maxId, Integer.parseInt(map.get("product_id")), Integer.parseInt(map.get("product_opt_id")), Integer.parseInt(map.get("quantity")));
+		}
+		 
+		return 0;
+	}
+
+
+	@Override
+	public List<OrderVO> getReceipt(int customer_id) {
+		// TODO Auto-generated method stub
+		List<OrderVO> ovList = new ArrayList<OrderVO>(); 
+		List<Map<String, Object>> osList = getOrder_idsByCustomer_id(customer_id);
+		for(Map<String, Object> map : osList) {
+			ShopVO svo = sdao.selectOne((String)map.get("shop_name"));
+			List<OrderedItemDTO>list = odao.selectList((Integer)map.get("order_id"), customer_id); 
+			OrderVO ovo = new OrderVO(); 
+			ovo.setShop(svo);
+			ovo.setProducts(list);
+			ovo.setTotal();
+			ovo.setOrder_date((String)map.get("order_date"));
+			ovList.add(ovo); 
 		}
 		
-		int optionId = -1;
-		orderDAOImp.save(order);
-		for(OrderDetailReq detail : list) {
-			if(detail.getItmeOptionTemp() !=0) {
-				OptionVO option = new OptionVO();
-				option.setOptions(detail.getItmeOptionTemp(), detail.getItemOptionSize());
-				productionDAOImp.insertOption(option);
-				optionId = option.getItemOptionId();
-			}
-			
-			OrderDetailVO orderDetail = OrderDetailVO.create(detail.getItemId(), optionId, order.getOrderId(), detail.getOrderDetailCount());
-			orderDAOImp.saveOrderDetail(orderDetail);
-		}
+		return ovList;
+	}
+
+	@Override
+	public List<Map<String, Object>> getOrder_idsByCustomer_id(int customer_id) {
+		// TODO Auto-generated method stub
+		return odao.getOrder_idsByCustomer_id(customer_id);
 	}
 	
-	@Override
-	public void cancleOrder(int orderId) throws Exception {
-		// TODO Auto-generated method stub
-		
-	}
-	
-	@Override
-	public List<OrderVO> selectOrders() throws Exception {
-		// TODO Auto-generated method stub
-		return null;
-	}
 }

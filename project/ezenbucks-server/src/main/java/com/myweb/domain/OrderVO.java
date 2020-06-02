@@ -1,39 +1,42 @@
 package com.myweb.domain;
 
-import java.time.LocalDate;
+import java.util.List;
 
-import com.myweb.enums.OrderStatus;
-
-import lombok.AccessLevel;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-/** 
- * 주문테이블 데이터 교환을 위한 객체
- * 주문 총 가격
- * 주문 상태
- * 매장 id
- * 주문 시간
- */
-@Getter
-@NoArgsConstructor(access = AccessLevel.PROTECTED)
-@AllArgsConstructor
 public class OrderVO {
-	private int orderId;
-	private int orderTotalPrice;
-	private int orderStatus;
+	ShopVO shop; 
+	List<OrderedItemDTO> products; 
+	int total;
+	String order_date;
 	
-	private int shopId;
-	private LocalDate orderDatetime;
-	
-	public static OrderVO newOrder(int orderTotalPrice, int shopId) {
-		OrderVO newOrder = new OrderVO();
-		newOrder.orderTotalPrice = orderTotalPrice;
-		newOrder.orderStatus = OrderStatus.CompletetPayment.ordinal();
-		newOrder.shopId = shopId;
-		newOrder.orderDatetime = LocalDate.now();
-		
-		return newOrder;
+	public String getOrder_date() {
+		return order_date;
 	}
-	
+	public void setOrder_date(String order_date) {
+		this.order_date = order_date;
+	}
+	public void setTotal(int total) {
+		this.total = total;
+	}
+	public ShopVO getShop() {
+		return shop;
+	}
+	public void setShop(ShopVO shop) {
+		this.shop = shop;
+	}
+	public List<OrderedItemDTO> getProducts() {
+		return products;
+	}
+	public void setProducts(List<OrderedItemDTO> products) {
+		this.products = products;
+	}
+	public int getTotal() {
+		return total;
+	}
+	public void setTotal() {
+		int sum = 0; 
+		for(OrderedItemDTO dto : this.products) {
+			sum += dto.getSubTotal();
+		}
+		this.total = sum; 
+	} 
 }

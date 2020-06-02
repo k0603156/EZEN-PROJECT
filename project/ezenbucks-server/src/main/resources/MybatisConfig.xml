@@ -3,9 +3,9 @@
 <configuration>
 	<typeAliases>
 		<!-- <package name="com.myweb.domain" /> -->
-		<typeAlias type="com.myweb.domain.ItemVO" alias="itemvo"/>
-		<typeAlias type="com.myweb.domain.OrderDetailVO" alias="ordDetailvo"/>
-		<typeAlias type="com.myweb.domain.OrderVO" alias="ordervo"/>
-		<typeAlias type="com.myweb.domain.OptionVO" alias="optionvo"/>
+		<typeAlias type="com.myweb.domain.ProductVO" alias="pvo"/>
+		<typeAlias type="com.myweb.domain.ShopVO" alias="svo"/>
+		<typeAlias type="java.lang.Integer" alias="i"/>
+		<typeAlias type="java.lang.String" alias="s"/>
 	</typeAliases>
 </configuration>

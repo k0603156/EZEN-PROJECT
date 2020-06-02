@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="OrderMapper">
+	<insert id="writeOrders" parameterType="java.util.HashMap">
+		INSERT INTO orders
+		(order_date, order_status, customer_id, shop_name)
+		VALUES(CURRENT_TIMESTAMP, 3, #{customer_id}, #{shop_name})
+	</insert>
+	<select id="readMaxId" resultType="java.lang.Integer">
+		<![CDATA[
+		SELECT @last_id := MAX(order_id) FROM orders
+		]]>
+	</select>
+	<insert id="writeOrderDetails" parameterType="java.lang.Integer">
+		INSERT INTO ezenbucks.order_details
+			(order_id, product_id, product_opt_id, quantity)
+			VALUES(#{order_id}, #{product_id}, #{product_opt_id}, #{quantity})
+	</insert>
+	<select id="OrderedList" parameterType="java.util.HashMap" resultType="com.myweb.domain.OrderedItemDTO">
+		select p.product_name, p.unit_price, od.quantity, p.unit_price * od.quantity as subTotal from product p, order_details od 
+		where p.product_id = od.product_id and od.order_id in (select o.order_id from orders o where customer_id=#{customer_id} and order_id=#{order_id})
+	</select>
+	<select id="getOrder_idsByCustomer_id" parameterType="i" resultType="java.util.HashMap">
+		select order_id, shop_name,  date_format(order_date, '%Y.%m.%d %H:%i') as order_date from orders where customer_id = #{customer_id} 
+	</select>
+</mapper>
+
