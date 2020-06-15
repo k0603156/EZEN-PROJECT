@@ -14,7 +14,7 @@
 		<org.aspectj-version>1.9.5</org.aspectj-version>
 		<org.log4j-version>2.11.2</org.log4j-version>
 		<org.slf4j-version>1.7.25</org.slf4j-version>
-		<spring.security-version>4.2.11.RELEASE</spring.security-version>
+		<spring.security-version>5.3.3.RELEASE</spring.security-version>
 		<org.quartz-version>2.3.2</org.quartz-version>
 		<fasterxml.jackson-version>2.10.0</fasterxml.jackson-version>
 	</properties>
