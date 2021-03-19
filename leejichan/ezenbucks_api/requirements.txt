@@ -1,6 +1,6 @@
 asgiref==3.2.7
 Django==3.0.6
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 flake8==3.8.2
 mccabe==0.6.1
 mysqlclient @ file:///C:/mysqlclient-1.4.6-cp38-cp38-win_amd64.whl
